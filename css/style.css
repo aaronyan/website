@@ -266,6 +266,19 @@
 		#whatisolve-last p {
 			margin-bottom: 0em;
 		}
+		
+	#whatisolve img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+		@media (min-width: 680px){
+			#whatisolve img {
+				width: 600px;
+			}
+		}
 
 #whatelse {
 }
