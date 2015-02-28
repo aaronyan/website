@@ -286,14 +286,8 @@
 	#endnote p {
 		padding: 2em 0;
 		margin: 0 auto;
-		width: 100%;
+		max-width: 500px;
 	}
-
-		@media (min-width: 400px){
-			#endnote p{
-				width: 350px;
-			}
-		}
 
 	#endnote img {
 		height: .7em;
@@ -323,7 +317,8 @@
 
 #footer {
 	position: relative;
-	height: 100px;
+	/*height: 100px;*/
+	height: 100%;
 	padding: 3em 0;
 	background: #bddeff; /* Old browsers */
 	background: -moz-linear-gradient(top,  #bddeff 1%, #87c3ff 80%); /* FF3.6+ */
@@ -340,37 +335,41 @@
 		font-family: 'Source Sans Pro', sans-serif;
 		text-align: center;
 		font-size: 100%;
-		padding: 1em 0 1em 0;
+		/*padding: 1em 0 1em 0;*/
 		text-align: center;
 	}
 
+	#footer .footertag {
+		padding-top: 1em;
+	}
+
 	#footer .copyright {
-			font-size: 100%;
-			line-height: 1em;
-			text-decoration: none;
-			vertical-align: baseline;
-			text-align: center;
-			padding: 1.5em 0 0 0;
-			margin: 0;
+		font-size: 100%;
+		line-height: 1em;
+		text-decoration: none;
+		vertical-align: baseline;
+		text-align: center;
+		padding-left: 0em;
+		margin: 0;
+	}
+
+		#footer .copyright a {
+			color: inherit;
 		}
 
-			#footer .copyright a {
-				color: inherit;
-			}
+		#footer .copyright li {
+			display: inline-block;
+			margin-left: 1em;
+			padding-left: 1em;
+			border-left: dotted 1px;
+			letter-spacing: 0;
+		}
 
-			#footer .copyright li {
-				display: inline-block;
-				margin-left: 1em;
-				padding-left: 1em;
-				border-left: dotted 1px;
-				letter-spacing: 0;
+			#footer .copyright li:first-child {
+				margin: 0;
+				padding: 0;
+				border: 0;
 			}
-
-				#footer .copyright li:first-child {
-					margin: 0;
-					padding: 0;
-					border: 0;
-				}
 
 	.icon {
 		position: relative;
