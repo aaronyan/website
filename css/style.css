@@ -1,3 +1,7 @@
+/***************************
+Front Page & General
+***************************/
+
 #header {
   	padding: 15px 0px;
 	background: #87c3ff; /* Old browsers */
@@ -466,3 +470,42 @@
 .special:after {
     right: 7%;
 }
+
+/***************************
+About Page Specific
+***************************/
+
+
+
+#banner{
+
+}
+
+	#tagnameabout {
+		text-align: center;
+	    margin: 4em 0 2em 0;
+	    height: 10em;
+	    background-color: #bddeff;
+	}
+
+	#datacenterfreeleft img {
+		display: block;
+		float: right;
+		margin-right: 4em;
+	}
+
+	#datacenterfreeright img {
+		display: block;
+		margin-left: 4em;
+	}
+
+	#bannerimgabout {
+		background: #bddeff; /* Old browsers */
+		background: -moz-linear-gradient(top,  #bddeff 0%, #ffffff 70%, #ffffff 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bddeff), color-stop(70%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #bddeff 0%,#ffffff 70%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #bddeff 0%,#ffffff 70%,#ffffff 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #bddeff 0%,#ffffff 70%,#ffffff 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #bddeff 0%,#ffffff 70%,#ffffff 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bddeff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	}
