@@ -475,37 +475,67 @@ Front Page & General
 About Page Specific
 ***************************/
 
-
-
-#banner{
-
+#bannerimgabout .columns{
+	width: 48%;
 }
 
 	#tagnameabout {
 		text-align: center;
-	    margin: 4em 0 2em 0;
+	    margin: 4em 0 5em 0;
 	    height: 10em;
 	    background-color: #bddeff;
 	}
 
 	#datacenterfreeleft img {
 		display: block;
-		float: right;
-		margin-right: 4em;
+		float: left;
+		margin-right: 0em;
+		width: 100%;
 	}
 
 	#datacenterfreeright img {
 		display: block;
-		margin-left: 4em;
+		float: right;
+		margin-left: 0em;
+		width: 100%;
+	}
+
+	@media (min-width: 390px) {
+		#datacenterfreeleft img {
+			width: auto;
+		}
+
+		#datacenterfreeright img {
+			width: auto;
+		}
+	}
+
+	@media (min-width: 550px) {
+		#datacenterfreeleft img {
+			margin-right: 4em;
+			float: right;
+			width: auto;
+		}
+
+		#datacenterfreeright img {
+			margin-left: 4em;
+			float: left;
+			width: auto;
+		}
 	}
 
 	#bannerimgabout {
 		background: #bddeff; /* Old browsers */
-		background: -moz-linear-gradient(top,  #bddeff 0%, #ffffff 70%, #ffffff 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bddeff), color-stop(70%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #bddeff 0%,#ffffff 70%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #bddeff 0%,#ffffff 70%,#ffffff 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #bddeff 0%,#ffffff 70%,#ffffff 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  #bddeff 0%,#ffffff 70%,#ffffff 100%); /* W3C */
+		background: -moz-linear-gradient(top,  #bddeff 0%, #ffffff 80%, #ffffff 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bddeff), color-stop(80%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #bddeff 0%,#ffffff 80%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #bddeff 0%,#ffffff 80%,#ffffff 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #bddeff 0%,#ffffff 80%,#ffffff 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #bddeff 0%,#ffffff 80%,#ffffff 100%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bddeff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 	}
+
+#aboutintro h3, p{
+	margin-right: 5%;
+	margin-left: 5%;
+}
