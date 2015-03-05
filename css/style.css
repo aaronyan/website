@@ -500,6 +500,10 @@ About Page Specific
 		width: 100%;
 	}
 
+		.datacenterfreeright{
+			float: right;
+		}
+
 	@media (min-width: 390px) {
 		#datacenterfreeleft img {
 			width: auto;
@@ -510,17 +514,15 @@ About Page Specific
 		}
 	}
 
-	@media (min-width: 550px) {
+	@media (min-width: 530px) {
 		#datacenterfreeleft img {
 			margin-right: 4em;
 			float: right;
-			width: auto;
 		}
 
 		#datacenterfreeright img {
 			margin-left: 4em;
 			float: left;
-			width: auto;
 		}
 	}
 
