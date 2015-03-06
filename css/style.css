@@ -180,7 +180,6 @@ Front Page & General
 
 	#whatido .whatrow {
 		padding-top: 3em;
-		display: table;
 	}
 
 	#whatido .tagline {
@@ -192,6 +191,7 @@ Front Page & General
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 1.4em;
 		width: 10em;
 	}
 
@@ -203,6 +203,7 @@ Front Page & General
 	    display: block;
 	    margin-left: auto;
 	    margin-right: auto;
+	    margin-top: 1.4em;
 	    width: 10em;
 	}
 
@@ -213,45 +214,73 @@ Front Page & General
 	@media (min-width: 550px) {
 
 	    #whatido .even-img {
-	    float: right;
-	    text-align: left;
-	    margin: auto 0;
-	    height: 100%;
-	    vertical-align: middle;
+		    float: right;
+		    text-align: left;
+		    height: 100%;
 	    }
 
 	    #whatido .even-text {
-	    float:left:;
-	    width: 80%;
-	    text-align: left;
+		    float:left:;
+		    width: 87%;
+		    text-align: left;
 	    }
 
 	    #whatido .odd-img {
-	    position: relative;
-	    float: left;
-	    left: 230%;
-	    text-align: left;
+		    position: relative;
+		    float: left;
+		    left: 150%;
+		    text-align: left;
 	    }
 
 	    #whatido .odd-text {
-	    position: relative;
-	    float:left;
-	    right:30%;
-	    width: 80%;
-	    text-align: left;
+		    position: relative;
+		    float:left;
+		    right: 85%;
+		    width: 115%;
+		    text-align: left;
 	    }
 	}
 
-	@media (min-width: 550px) {
+	@media (min-width: 850px) {
 
-	    #whatido .even-img {
-	    margin-top:.8em;
+		#whatido .even-img {
+		    margin-top: 1.4em;
+	    }
+
+	    #whatido .even-text {
+		    width: 87%;
 	    }
 
 	    #whatido .odd-img {
-	    margin-top:.8em;
+	    	margin-top: 1.4em;
+		    left: 150%;
 	    }
 
+	    #whatido .odd-text {
+		    right: 85%;
+		    width: 115%;
+	    }
+	}
+
+	@media (min-width: 1000px) {
+
+		#whatido .even-img {
+		    margin-top: .8em;
+	    }
+
+	    #whatido .even-text {
+		    width: 80%;
+	    }
+
+	    #whatido .odd-img {
+	    	margin-top: .8em;
+		    left: 150%;
+	    }
+
+	    #whatido .odd-text {
+		    right: 75%;
+		    width: 110%;
+	    }
 	}
 
 
@@ -537,7 +566,7 @@ About Page Specific
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bddeff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 	}
 
-#aboutintro h3, p{
+#aboutintro h3, #aboutintro p{
 	margin-right: 5%;
 	margin-left: 5%;
 }
