@@ -570,3 +570,13 @@ About Page Specific
 	margin-right: 5%;
 	margin-left: 5%;
 }
+
+
+/***************************
+About Page - JavaScript
+***************************/
+
+.x.axis.top line {
+    stroke: #ccc;
+    stroke-width: .1;
+}
