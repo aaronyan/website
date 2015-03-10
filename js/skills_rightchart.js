@@ -1,7 +1,7 @@
 var data_right = [87.5, 75, 75, 62.5, 62.5, 50],
-	data_right_name = ['Python','Mongo', 'MySQL', 'HTML','CSS', 'Hive'],
+	data_right_name = ['','','','','','Python','Mongo','MySQL','HTML & CSS','JavaScript','Hive'],
 	data_right_colors = ['a7e6f5','a7e6f5','a7e6f5','faddaa','faddaa','a7e6f5'],
-	data_skill_names = ["Rookie","Geek","Ninja","Master"],
+	data_skill_names = ["","Rookie","Geek","Ninja","Master"],
 	margin = {top: 30, right: 25, bottom: 30, left: 25},
 	width = parseInt(d3.select('#rightgraph').style('width'), 10),
 	width = width - margin.left - margin.right,
@@ -32,6 +32,9 @@ canvas.append('g')
         .attr('class', 'x axis top')
         .call(xAxis.orient('top'));
 
+canvas.selectAll('.x.axis.top line')
+	.style({'stroke-width': '1px'});
+
 var bars = canvas.selectAll("rect")
 	.data(data_right)
 	.enter()
@@ -41,6 +44,14 @@ var bars = canvas.selectAll("rect")
 		.attr("y", function(d, i){ return i*55+10;})
 		.attr('fill', function(d, i){ return "#"+data_right_colors[i];});
 
+canvas.selectAll('text')
+	.data(data_right_name)
+	.enter()
+	.append('text')
+	.text(function(d) { return d; })
+	.attr("x", 20)
+	.attr("y", function(d, i){ return (i-5)*55+39;});
+
 // bars.append('text')
 // 	.attr("x", 0)
 // 	.attr("y", function(d, i){ return i*55+10;})
@@ -48,10 +59,6 @@ var bars = canvas.selectAll("rect")
 // 	.attr("font-family", "sans-serif")
 // 	.attr("font-size", "11px")
 // 	.attr("fill", "white");
-
-
-
-
 
 d3.select(window).on('resize', resize); 
  
