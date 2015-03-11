@@ -575,8 +575,14 @@ About Page Specific
 /***************************
 About Page - JavaScript
 ***************************/
-
-.x.axis.top line {
-    stroke: #ccc;
-    stroke-width: .1;
+.axis path {
+	display: none;
+    fill: #ccc;
 }
+
+.domain { 
+  fill: none; 
+  stroke: black; 
+  stroke-width; 1; 
+} 
+
