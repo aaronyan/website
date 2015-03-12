@@ -575,16 +575,6 @@ About Page Specific
 /***************************
 About Page - JavaScript
 ***************************/
-.axis path {
-	display: none;
-    fill: #ccc;
-}
-
-.domain { 
-  fill: none; 
-  stroke: black; 
-  stroke-width; 1; 
-} 
 
 .axis line,
 .axis path {
@@ -593,3 +583,10 @@ About Page - JavaScript
   shape-rendering: crispEdges;
 }
 
+#rightgraph text {
+	font-size: 1.2em;
+}
+
+	#rightgraph .axis text {
+		font-size: .9em;
+	}

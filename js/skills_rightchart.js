@@ -19,7 +19,7 @@ var axisName = d3.scale.ordinal()
 
 var xAxis = d3.svg.axis()
 			.scale(axisName)
-		    .tickSize(5)
+		    .tickSize(15)
 		    .tickSubdivide(true);
 
 var canvas = d3.select("#rightgraph").append("svg")
@@ -32,8 +32,8 @@ canvas.append('g')
         .attr('class', 'x axis top')
         .call(xAxis.orient('top'))
         .selectAll("text")
-        .attr("y", 0)
-        .attr("x", -5)
+        .attr("y", -10)
+        .attr("x", -10)
         .style("text-anchor", "end");
 
 canvas.append("path")
@@ -54,7 +54,8 @@ canvas.selectAll('text')
 	.append('text')
 	.text(function(d) { return d; })
 	.attr("x", 20)
-	.attr("y", function(d, i){ return (i-5)*55+39;});
+	.attr("y", function(d, i){ return (i-5)*55+39;})
+	.style("color", "#3f505e");
 
 // bars.append('text')
 // 	.attr("x", 0)
@@ -83,7 +84,7 @@ function resize() {
     canvas.select('.x.axis.top')
     	.call(xAxis.orient('top'))
     	.selectAll("text")
-        .attr("y", 0)
-        .attr("x", -5)
+        .attr("y", -10)
+        .attr("x", -10)
         .style("text-anchor", "end");
 }
