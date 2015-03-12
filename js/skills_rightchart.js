@@ -30,10 +30,14 @@ var canvas = d3.select("#rightgraph").append("svg")
 
 canvas.append('g')
         .attr('class', 'x axis top')
-        .call(xAxis.orient('top'));
+        .call(xAxis.orient('top'))
+        .selectAll("text")
+        .attr("y", 0)
+        .attr("x", -5)
+        .style("text-anchor", "end");
 
-canvas.selectAll('.x.axis.top line')
-	.style({'stroke-width': '1px'});
+canvas.append("path")
+      .attr("class", "line");
 
 var bars = canvas.selectAll("rect")
 	.data(data_right)
@@ -76,5 +80,10 @@ function resize() {
         .attr("width", function(d){ return widthScale(d);});
 
     axisName.rangePoints([0,width]);
-    canvas.select('.x.axis.top').call(xAxis.orient('top'));
+    canvas.select('.x.axis.top')
+    	.call(xAxis.orient('top'))
+    	.selectAll("text")
+        .attr("y", 0)
+        .attr("x", -5)
+        .style("text-anchor", "end");
 }

@@ -586,3 +586,10 @@ About Page - JavaScript
   stroke-width; 1; 
 } 
 
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
