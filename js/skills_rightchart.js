@@ -53,9 +53,8 @@ canvas.selectAll('text')
 	.enter()
 	.append('text')
 	.text(function(d) { return d; })
-	.attr("x", 20)
-	.attr("y", function(d, i){ return (i-5)*55+39;})
-	.style("color", "#3f505e");
+	.attr("x", 15)
+	.attr("y", function(d, i){ return (i-5)*55+39;});
 
 // bars.append('text')
 // 	.attr("x", 0)

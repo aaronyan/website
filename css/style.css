@@ -579,11 +579,12 @@ About Page - JavaScript
 .axis line,
 .axis path {
   fill: none;
-  stroke: #000;
+  stroke: #3f505e;;
   shape-rendering: crispEdges;
 }
 
 #rightgraph text {
+	fill: #3f505e;
 	font-size: 1.2em;
 }
 
