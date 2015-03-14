@@ -21,12 +21,12 @@ var axisName = d3.scale.ordinal()
 
 var xAxis = d3.svg.axis()
 			.scale(axisName)
-		    .tickSize(15)
+		    .tickSize(0)
 		    .tickSubdivide(true);
 
 var x2Axis = d3.svg.axis()
 	.scale(widthScale)
-	.tickSize(-340)
+	.tickSize(-355)
 	.tickValues([25,50,75,100]);
 
 var y = d3.scale.linear().range([340, 0]);
@@ -115,4 +115,9 @@ function resize() {
         .attr("y", -10)
         .attr("x", -10)
         .style("text-anchor", "end");
+
+    canvas.select('.grid')
+    .attr("transform", "translate(0," + 340 + ")")
+    .call(x2Axis.orient('bottom'))
+
 }
