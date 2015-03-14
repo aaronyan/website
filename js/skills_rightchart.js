@@ -8,7 +8,7 @@ var data_right = [87.5, 75, 75, 62.5, 62.5, 50],
 	width = parseInt(d3.select('#rightgraph').style('width'), 10),
 	width = width - margin.left - margin.right,
 	height = 450, // placeholder
-	barHeight = 55,
+	barHeight = 60,
 	spacing = 3;
 
 var widthScale = d3.scale.linear()
@@ -26,10 +26,10 @@ var xAxis = d3.svg.axis()
 
 var x2Axis = d3.svg.axis()
 	.scale(widthScale)
-	.tickSize(-355)
+	.tickSize(-420)
 	.tickValues([25,50,75,100]);
 
-var y = d3.scale.linear().range([340, 0]);
+var y = d3.scale.linear().range([380, 0]);
 
 var yAxis = d3.svg.axis()
 	.scale(y)
@@ -42,6 +42,11 @@ var canvas = d3.select("#rightgraph").append("svg")
 	.attr("height", height)
 	.append("g")
 	.attr("transform", 'translate(' + [margin.left, margin.top] + ')');
+
+canvas.append('g')
+    .attr('class', 'grid')
+    .attr("transform", "translate(0," + 380 + ")")
+    .call(x2Axis.orient('bottom'))
 
 canvas.append('g')
     .attr('class', 'x axis top')
@@ -59,18 +64,13 @@ canvas.append('g')
 canvas.append('g').append("path")
 	.attr("class", "line");
 
-canvas.append('g')
-    .attr('class', 'grid')
-    .attr("transform", "translate(0," + 340 + ")")
-    .call(x2Axis.orient('bottom'))
-
 var bars = canvas.append('g').selectAll("rect")
 	.data(data_right)
 	.enter()
 		.append("rect")
 		.attr("width", function(d){ return widthScale(d);})
-		.attr("height", 45)
-		.attr("y", function(d, i){ return i*barHeight+10;})
+		.attr("height", 40)
+		.attr("y", function(d, i){ return i*barHeight+20;})
 		.attr("x", 1)
 		.attr('fill', function(d, i){ return "#"+data_right_colors[i];});
 
@@ -80,7 +80,7 @@ canvas.append('g').selectAll('text')
 	.append('text')
 	.text(function(d) { return d; })
 	.attr("x", 15)
-	.attr("y", function(d, i){ return (i-5)*barHeight+39;});
+	.attr("y", function(d, i){ return (i-5)*barHeight+46;});
 
 var key1 = canvas.append('g').append("rect")
 	.data(data_legend)
@@ -117,7 +117,7 @@ function resize() {
         .style("text-anchor", "end");
 
     canvas.select('.grid')
-    .attr("transform", "translate(0," + 340 + ")")
+    .attr("transform", "translate(0," + 380 + ")")
     .call(x2Axis.orient('bottom'))
 
 }
