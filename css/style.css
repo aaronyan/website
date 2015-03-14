@@ -579,7 +579,7 @@ About Page - JavaScript
 .axis line,
 .axis path {
   fill: none;
-  stroke: #3f505e;;
+  stroke: #3f505e;
   shape-rendering: crispEdges;
 }
 
@@ -591,3 +591,18 @@ About Page - JavaScript
 	#rightgraph .axis text {
 		font-size: .9em;
 	}
+
+.grid line,
+.grid path {
+	fill: none;
+  	stroke: none;
+  	shape-rendering: crispEdges;
+}
+
+.grid .tick line {
+	stroke: #3f505e;
+}
+
+.grid text {
+	display: none;
+}
