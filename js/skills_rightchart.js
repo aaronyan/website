@@ -1,9 +1,9 @@
 var data_right = [87.5, 75, 75, 62.5, 62.5, 50],
 	data_right_name = ['','','','','','Python','Mongo','MySQL','HTML & CSS','JavaScript','Hive'],
-	data_right_colors = ['a7e6f5','a7e6f5','a7e6f5','faddaa','faddaa','a7e6f5'],
+	data_right_colors = ['91e0f2','91e0f2','91e0f2','f9d595','f9d595','91e0f2'],
 	data_skill_names = ["","Rookie","Geek","Ninja","Master"],
 	data_legend = ['Back-End','Front-end'],
-	data_legend_colors = ['a7e6f5','faddaa']
+	data_legend_colors = ['91e0f2','f9d595']
 	margin = {top: 30, right: 25, bottom: 30, left: 25},
 	width = parseInt(d3.select('#rightgraph').style('width'), 10),
 	width = width - margin.left - margin.right,
@@ -29,7 +29,7 @@ var x2Axis = d3.svg.axis()
 	.tickSize(-420)
 	.tickValues([25,50,75,100]);
 
-var y = d3.scale.linear().range([380, 0]);
+var y = d3.scale.linear().range([375, 0]);
 
 var yAxis = d3.svg.axis()
 	.scale(y)
@@ -45,7 +45,7 @@ var canvas = d3.select("#rightgraph").append("svg")
 
 canvas.append('g')
     .attr('class', 'grid')
-    .attr("transform", "translate(0," + 380 + ")")
+    .attr("transform", "translate(0," + 375 + ")")
     .call(x2Axis.orient('bottom'))
 
 canvas.append('g')
