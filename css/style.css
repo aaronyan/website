@@ -586,7 +586,12 @@ About Page - JavaScript
 }
 
 	#rightgraph .axis text {
-		font-size: .80em;
+		font-size: .8em;
+		font-weight: 600;
+	}
+
+	#rightgraph .legendtext {
+		font-size: .8em;
 		font-weight: 600;
 	}
 
@@ -611,3 +616,4 @@ About Page - JavaScript
 	.grid text {
 		display: none;
 	}
+
