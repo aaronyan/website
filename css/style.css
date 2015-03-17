@@ -576,6 +576,11 @@ About Page Specific
 About Page - JavaScript
 ***************************/
 
+.graphs {
+	display: block;
+	width: 100%;
+}
+
 #rightgraph text {
 	fill: #3f505e;
 	font-size: 1.2em;
