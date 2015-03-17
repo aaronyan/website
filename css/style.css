@@ -622,3 +622,45 @@ About Page - JavaScript
 		display: none;
 	}
 
+
+#leftgraph text {
+	fill: #3f505e;
+	font-size: 1.2em;
+}
+
+#leftgraph rect {
+	opacity: 0.8;
+}
+
+	#leftgraph .axis text {
+		font-size: .8em;
+		font-weight: 600;
+	}
+
+	#leftgraph .legendtext1 {
+		font-size: .8em;
+		font-weight: 600;
+	}
+
+	.axis line,
+	.axis path {
+	  fill: none;
+	  stroke: #3f505e;
+	  shape-rendering: crispEdges;
+	}
+
+	.grid line,
+	.grid path {
+		fill: none;
+	  	stroke: none;
+	  	shape-rendering: crispEdges;
+	}
+
+	.grid .tick line {
+		stroke: #d9dcdf;
+	}
+
+	.grid text {
+		display: none;
+	}
+
