@@ -129,11 +129,11 @@ canvas.append('g').selectAll('.legendtext')
 // INITIAL VARIABLES
 
 var data_left = [87.5, 75, 75, 62.5, 62.5, 50],
-	data_left_name = ['','','','','','Python','Mongo','MySQL','HTML & CSS','JavaScript','Hive'],
-	data_left_colors = ['91e0f2','91e0f2','91e0f2','f9d595','f9d595','91e0f2'],
-	data_skill_names1 = ["","Rookie","Geek","Ninja","Master"],
-	data_legend1 = ['','','','','','','','','','','','Back-End','Front-end'],
-	data_legend_colors1 = ['91e0f2','f9d595']
+	data_left_name = ['','','','','','Linear Optimization','Excel','Machine Learning','R','Google OR-Tools','Tableau'],
+	data_left_colors = ['f9b495','b1f2e3','f9b495','b1f2e3','b1f2e3','b1f2e3'],
+	data_skill_names1 = ["Master","Ninja","Geek","Rookie",""],
+	data_legend1 = ['','','','','','','','','','','','Mathematics','Algorithm Dev.'],
+	data_legend_colors1 = ['f9b495','b1f2e3']
 	data_legend_x1 = [20, 60]
 	margin1 = {top: 30, right: 10, bottom: 30, left: 10},
 	width1 = parseInt(d3.select('#leftgraph').style('width'), 10),
