@@ -581,14 +581,30 @@ About Page - JavaScript
 	width: 100%;
 }
 
-#rightgraph text {
-	fill: #3f505e;
-	font-size: 1.2em;
+#rightgraph {
+	margin: 0 1em;
 }
 
-#rightgraph rect {
-	opacity: 0.8;
-}
+	@media (min-width: 550px) {
+		#rightgraph {
+			margin: 0 2em 0 0;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		#rightgraph {
+			margin: 0 4em 0 0;
+		}
+	}
+
+	#rightgraph text {
+		fill: #3f505e;
+		font-size: 1.2em;
+	}
+
+	#rightgraph rect {
+		opacity: 0.8;
+	}
 
 	#rightgraph .axis text {
 		font-size: .8em;
@@ -623,14 +639,32 @@ About Page - JavaScript
 	}
 
 
-#leftgraph text {
-	fill: #3f505e;
-	font-size: 1.2em;
+#leftgraph {
+	margin: 0 1em;
 }
 
-#leftgraph rect {
-	opacity: 0.8;
-}
+	@media (min-width: 550px) {
+		#leftgraph {
+			margin: 0 0 0 2em;
+
+		}
+	}
+
+	@media (min-width: 1000px) {
+		#leftgraph {
+			margin: 0 0 0 4em;
+
+		}
+	}
+
+	#leftgraph text {
+		fill: #3f505e;
+		font-size: 1.2em;
+	}
+
+	#leftgraph rect {
+		opacity: 0.8;
+	}
 
 	#leftgraph .axis text {
 		font-size: .8em;
@@ -663,4 +697,13 @@ About Page - JavaScript
 	.grid text {
 		display: none;
 	}
+
+	#leftgraph .y text {
+		display: none;
+	}
+
+	#leftgraph .y path {
+		stroke: none;
+	}
+
 
