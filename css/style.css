@@ -566,11 +566,90 @@ About Page Specific
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bddeff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 	}
 
-#aboutintro h3, #aboutintro p{
-	margin-right: 5%;
-	margin-left: 5%;
+#aboutintro h2 {
+	margin-top: 1em;
 }
 
+#aboutskills svg {
+	margin-top: 1em;
+}
+
+#leftgraph svg {
+	margin-bottom: 1em;
+}
+
+	@media (min-width: 550px) {
+		#leftgraph svg {
+			margin-bottom: 0em;
+		}
+	}
+
+#aboutskills .skillnames h3{
+	margin-top: 1em;
+}
+
+
+#aboutintro p {
+	margin: 0 auto;
+	max-width: 500px;
+	margin-bottom: 2em;
+}
+
+
+#appliedmath {
+	text-align: center;
+}
+
+	@media (min-width: 550px) {
+		#appliedmath {
+			text-align: right;
+		}
+	}
+
+#plussign {
+	display: none;
+	text-align: center;
+}
+
+	@media (min-width: 550px) {
+		#plussign {
+			display: inline;
+		}
+	}
+
+#computerprogram {
+	display: none;
+	text-align: left;
+}
+
+	@media (min-width: 550px) {
+		#computerprogram {
+			display: inline;
+		}
+	}
+
+#computerprogram2 {
+	text-align: center;
+	display: block;
+}
+
+	@media (min-width: 550px) {
+		#computerprogram2 {
+			display: none;
+		}
+	}
+
+#profile_network img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+	@media (min-width: 340px) {
+		#profile_network img {
+			width: 290px;
+		}
+	}
 
 /***************************
 About Page - JavaScript
@@ -705,5 +784,4 @@ About Page - JavaScript
 	#leftgraph .y path {
 		stroke: none;
 	}
-
 
