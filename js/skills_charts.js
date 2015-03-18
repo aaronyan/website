@@ -128,7 +128,7 @@ canvas.append('g').selectAll('.legendtext')
 
 // INITIAL VARIABLES
 
-var data_left = [87.5, 75, 75, 62.5, 62.5, 50],
+var data_left = [87.5, 87.5, 75, 62.5, 62.5, 50],
 	data_left_name = ['','','','','','Linear Optimization','Excel','Machine Learning','R','Google OR-Tools','Tableau'],
 	data_left_colors = ['f9b495','b1f2e3','f9b495','b1f2e3','b1f2e3','b1f2e3'],
 	data_skill_names1 = ["Master","Ninja","Geek","Rookie",""],
@@ -164,13 +164,12 @@ var xAxis1 = d3.svg.axis()
 var x2Axis1 = d3.svg.axis()
 	.scale(widthScale1)
 	.tickSize(-420)
-	.tickValues([25,50,75,100]);
+	.tickValues([0,25,50,75]);
 
 var yAxis1 = d3.svg.axis()
-	.scale(y1)
-	.orient("left")
-	.ticks(0)
-	.tickSize(0);
+	.scale(widthScale1)
+	.tickSize(-375)
+	.tickValues([100]);
 
 // canvas1 & DRAWING AXES
 
@@ -190,13 +189,13 @@ canvas1.append('g')
     .call(xAxis1.orient('top'))
     .selectAll("text")
     .attr("y", -10)
-    .attr("x", -10)
-    .style("text-anchor", "end");
+    .attr("x", 10)
+    .style("text-anchor", "start");
 
 canvas1.append('g')
-	.attr('class', 'y axis left')
-	.call(yAxis1.orient('left'))
-	.attr("x", 10);
+    .attr('class', 'y axis bottom')
+    .attr("transform", "translate(0," + 375 + ")")
+    .call(yAxis1.orient('bottom'));
 
 // BARS AND BAR TEXT
 
@@ -207,17 +206,19 @@ var graph_bars1 = canvas1.append('g').selectAll(".graph_bars1")
 		.attr("width", function(d){ return widthScale1(d);})
 		.attr("height", 40)
 		.attr("y", function(d, i){ return i*barHeight1+20;})
-		.attr("x", 1)
+		.attr("x", function(d){ return width1-widthScale1(d);})
 		.attr('fill', function(d, i){ return "#"+data_left_colors[i];})
 		.attr("class", "graph_bars1");
 
-canvas1.append('g').selectAll('text')
+canvas1.append('g').selectAll('.barttext1')
 	.data(data_left_name)
 	.enter()
 	.append('text')
 	.text(function(d) { return d; })
-	.attr("x", 15)
-	.attr("y", function(d, i){ return (i-5)*barHeight1+46;});
+	.attr("x", width1 - 15)
+	.style("text-anchor", "end")
+	.attr("y", function(d, i){ return (i-5)*barHeight1+46;})
+	.attr("class", "barttext1");
 
 // LEGEND
 
@@ -309,7 +310,8 @@ function resize() {
 
     // resize the graph_bars1
     canvas1.selectAll(".graph_bars1")
-        .attr("width", function(d){ return widthScale1(d);});
+        .attr("width", function(d){ return widthScale1(d);})
+        .attr("x", function(d){ return width1-widthScale1(d);})
 
     // resize the legend
     canvas1.selectAll(".legend1")
@@ -328,12 +330,19 @@ function resize() {
     	.call(xAxis1.orient('top'))
     	.selectAll("text")
         .attr("y", -10)
-        .attr("x", -10)
-        .style("text-anchor", "end");
+        .attr("x", 10)
+        .style("text-anchor", "start");
+
+    canvas1.select('.y.axis.bottom')
+    	.attr("transform", "translate(0," + 375 + ")")
+	    .call(yAxis1.orient('bottom'));
 
     // resize the grid
     canvas1.select('.grid')
-    .attr("transform", "translate(0," + 375 + ")")
-    .call(x2Axis1.orient('bottom'))
+	    .attr("transform", "translate(0," + 375 + ")")
+	    .call(x2Axis1.orient('bottom'));
+
+	canvas1.selectAll('.barttext1')
+		.attr("x", width1 - 15);
 
 }
