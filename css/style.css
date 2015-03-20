@@ -122,10 +122,8 @@ Front Page & General
 
 	#intro h3 {
 		margin: 2em auto 2rem auto;
-		width: 150px;
-		padding-bottom: .3em;
-		border-bottom: solid #d8dcdf;
-		border-bottom-width: 1px;
+		width: auto;
+		border-bottom: none;
 	}
 
 	#intro p {
@@ -179,7 +177,7 @@ Front Page & General
 }
   
 	#whatido h3{
-		margin: 2em auto 2rem 0;
+		margin: 2em auto 2rem auto;
 	}
 
 	#ido1 {
@@ -228,6 +226,10 @@ Front Page & General
 	}
 
 	@media (min-width: 550px) {
+
+		#whatido h3{
+			margin: 2em auto 2rem 0;
+		}
 
 	    #whatido .even-img {
 		    float: right;
@@ -536,6 +538,7 @@ About Page Specific
 	    background-color: #bddeff;
 	}
 
+
 	#datacenterfreeleft img {
 		display: block;
 		float: left;
@@ -587,8 +590,25 @@ About Page Specific
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bddeff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 	}
 
+.left-cloud.notagp {
+	bottom: 7em;
+}
+
+	@media (min-width: 1000px) {
+		.left-cloud.notagp {
+			bottom: 6em;
+		}
+	}
+
 #aboutintro h2 {
 	margin-top: 1em;
+}
+
+#aboutintro p {
+	margin: 0 auto;
+	max-width: 485px;
+	margin-bottom: 2em;
+	text-align: center;
 }
 
 #aboutskills svg {
@@ -609,49 +629,79 @@ About Page Specific
 	margin-top: 1em;
 }
 
-
-#aboutintro p {
-	margin: 0 auto;
-	max-width: 500px;
-	margin-bottom: 2em;
-}
-
-
 #appliedmath {
 	text-align: center;
 }
 
+#appliedmath h3 {
+	text-align: center;
+	width: 220px;
+}
+
 	@media (min-width: 550px) {
-		#appliedmath {
-			text-align: right;
+
+		#appliedmath h3{
+			margin-right: 0;
+			width: auto
+		}
+	}
+
+	@media (min-width: 638px) {
+		#appliedmath h3 {
+			width: 220px;
 		}
 	}
 
 #plussign {
 	display: none;
 	text-align: center;
+	
 }
 
 	@media (min-width: 550px) {
 		#plussign {
 			display: inline;
 		}
+
+		#plussign h3 {
+			border-bottom: none;
+			width: auto;
+		}
 	}
 
 #computerprogram {
 	display: none;
-	text-align: left;
+	text-align: center;
+}
+
+#computerprogram h3 {
+	text-align: center;
+	width: 240px;
+	min-width: 190px;
 }
 
 	@media (min-width: 550px) {
 		#computerprogram {
 			display: inline;
 		}
+
+		#computerprogram h3 {
+			margin-left: 0;
+			width: auto;
+		}
+	}
+
+	@media (min-width: 695px) {
+		#computerprogram h3 {
+			width: 240px;
+		}
 	}
 
 #computerprogram2 {
 	text-align: center;
 	display: block;
+	width: 240px;
+	margin-top: 0;
 }
 
 	@media (min-width: 550px) {
