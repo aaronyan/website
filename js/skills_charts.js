@@ -12,7 +12,7 @@ var data_right = [87.5, 75, 75, 62.5, 62.5, 50],
 	data_legend_colors = ['91e0f2','f9d595']
 	data_legend_x = [20, 60]
 	margin = {top: 30, right: 10, bottom: 30, left: 10},
-	width = parseInt(d3.select('#rightgraph').style('width'), 10),
+	width = parseInt(d3.select('#right-graph').style('width'), 10),
 	width = width - margin.left - margin.right,
 	height = 480, // placeholder
 	barHeight = 60,
@@ -50,7 +50,7 @@ var yAxis = d3.svg.axis()
 
 // CANVAS & DRAWING AXES
 
-var canvas = d3.select("#rightgraph").append("svg")
+var canvas = d3.select("#right-graph").append("svg")
 	.attr("width", (width + margin.left + margin.right) + 'px')
 	.attr("height", height)
 	.append("g")
@@ -136,7 +136,7 @@ var data_left = [87.5, 87.5, 75, 62.5, 62.5, 50],
 	data_legend_colors1 = ['f9b495','b1f2e3']
 	data_legend_x1 = [20, 60]
 	margin1 = {top: 30, right: 10, bottom: 30, left: 10},
-	width1 = parseInt(d3.select('#leftgraph').style('width'), 10),
+	width1 = parseInt(d3.select('#left-graph').style('width'), 10),
 	width1 = width1 - margin1.left - margin1.right,
 	height1 = 480, // placeholder
 	barHeight1 = 60,
@@ -173,7 +173,7 @@ var yAxis1 = d3.svg.axis()
 
 // canvas1 & DRAWING AXES
 
-var canvas1 = d3.select("#leftgraph").append("svg")
+var canvas1 = d3.select("#left-graph").append("svg")
 	.attr("width", (width1 + margin1.left + margin1.right) + 'px')
 	.attr("height", height1)
 	.append("g")
@@ -258,7 +258,7 @@ function resize() {
 	//
 
     // update width
-    width = parseInt(d3.select('#rightgraph').style('width'), 10);
+    width = parseInt(d3.select('#right-graph').style('width'), 10);
     width = width - margin.left - margin.right;
  
     // resize the canvas
@@ -300,7 +300,7 @@ function resize() {
 	//
 
     // update width
-    width1 = parseInt(d3.select('#leftgraph').style('width'), 10);
+    width1 = parseInt(d3.select('#left-graph').style('width'), 10);
     width1 = width1 - margin1.left - margin1.right;
  
     // resize the canvas1
