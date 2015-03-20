@@ -121,7 +121,11 @@ Front Page & General
 }
 
 	#intro h3 {
-		margin: 2em 0;
+		margin: 2em auto 2rem auto;
+		width: 150px;
+		padding-bottom: .3em;
+		border-bottom: solid #d8dcdf;
+		border-bottom-width: 1px;
 	}
 
 	#intro p {
@@ -175,7 +179,19 @@ Front Page & General
 }
   
 	#whatido h3{
-		margin-top: 2rem; 
+		margin: 2em auto 2rem 0;
+	}
+
+	#ido1 {
+		width: 115px;
+	}
+
+	#ido2 {
+		width: 140px;
+	}
+
+	#ido3 {
+		width: 135px;
 	}
 
 	#whatido .whatrow {
@@ -292,9 +308,14 @@ Front Page & General
 		margin: 0 auto 3em auto;
 	}
 
-	#whatisolve h3 {
-		margin: 2em 0 1em 0;
+	#isolve1 {
+		width: 220px;
 	}
+
+	#isolve2 {
+		width: 250px;
+	}
+
 
 		#whatisolve-last p {
 			margin-bottom: 0em;

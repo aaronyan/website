@@ -169,8 +169,17 @@ h2 {
   text-align: center;
 }
 
-h2, h3 {
-  font-weight:600; 
+h2 {
+  font-weight:600;
+}
+
+h3 {
+  font-weight:600;
+  margin: 2em auto 2rem auto;
+  width: 150px;
+  padding-bottom: .3em;
+  border-bottom: solid #d8dcdf;
+  border-bottom-width: 1px;
 }
 
 h1 { font-size: 5.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
