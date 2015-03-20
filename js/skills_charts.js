@@ -69,11 +69,6 @@ canvas.append('g')
     .attr("x", -10)
     .style("text-anchor", "end");
 
-canvas.append('g')
-	.attr('class', 'y axis left')
-	.call(yAxis.orient('left'))
-	.attr("x", 10);
-
 // BARS AND BAR TEXT
 
 var bars = canvas.append('g').selectAll(".bar")
@@ -83,7 +78,7 @@ var bars = canvas.append('g').selectAll(".bar")
 		.attr("width", function(d){ return widthScale(d);})
 		.attr("height", 40)
 		.attr("y", function(d, i){ return i*barHeight+20;})
-		.attr("x", 1)
+		.attr("x", 0)
 		.attr('fill', function(d, i){ return "#"+data_right_colors[i];})
 		.attr("class", "bar");
 
@@ -94,6 +89,11 @@ canvas.append('g').selectAll('text')
 	.text(function(d) { return d; })
 	.attr("x", 15)
 	.attr("y", function(d, i){ return (i-5)*barHeight+46;});
+
+canvas.append('g')
+	.attr('class', 'y axis left')
+	.call(yAxis.orient('left'))
+	.attr("x", 10);
 
 // LEGEND
 
@@ -192,21 +192,16 @@ canvas1.append('g')
     .attr("x", 10)
     .style("text-anchor", "start");
 
-canvas1.append('g')
-    .attr('class', 'y axis bottom')
-    .attr("transform", "translate(0," + 375 + ")")
-    .call(yAxis1.orient('bottom'));
-
 // BARS AND BAR TEXT
 
 var graph_bars1 = canvas1.append('g').selectAll(".graph_bars1")
 	.data(data_left)
 	.enter()
 		.append("rect")
-		.attr("width", function(d){ return widthScale1(d);})
+		.attr("width", function(d){ return widthScale1(d)-1;})
 		.attr("height", 40)
 		.attr("y", function(d, i){ return i*barHeight1+20;})
-		.attr("x", function(d){ return width1-widthScale1(d);})
+		.attr("x", function(d){ return width1-widthScale1(d)+1;})
 		.attr('fill', function(d, i){ return "#"+data_left_colors[i];})
 		.attr("class", "graph_bars1");
 
@@ -219,6 +214,11 @@ canvas1.append('g').selectAll('.barttext1')
 	.style("text-anchor", "end")
 	.attr("y", function(d, i){ return (i-5)*barHeight1+46;})
 	.attr("class", "barttext1");
+
+canvas1.append('g')
+    .attr('class', 'y axis bottom')
+    .attr("transform", "translate(0," + 375 + ")")
+    .call(yAxis1.orient('bottom'));
 
 // LEGEND
 
@@ -310,8 +310,8 @@ function resize() {
 
     // resize the graph_bars1
     canvas1.selectAll(".graph_bars1")
-        .attr("width", function(d){ return widthScale1(d);})
-        .attr("x", function(d){ return width1-widthScale1(d);})
+        .attr("width", function(d){ return widthScale1(d)-1;})
+        .attr("x", function(d){ return width1-widthScale1(d)+1;})
 
     // resize the legend
     canvas1.selectAll(".legend1")
