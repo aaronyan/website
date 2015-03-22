@@ -197,6 +197,7 @@ Front Page & General
   
 	#what-i-do h3{
 		margin: 2.5rem auto 2rem auto;
+		border-bottom: none;
 	}
 
 	#i-do-1 {
@@ -612,7 +613,57 @@ About Page Specific
 	text-align: center;
 }
 
-#about-skills svg {
+	#phil-border-left {
+		position: absolute;
+		top: 80px;
+		opacity: 0;
+		left: 0em;
+		height: 90%;
+		z-index: 100;
+		-webkit-transition: left 1.5s ease, opacity 1.5s ease;
+		-moz-transition: left 1.5s ease, opacity 1.5s ease;
+		-o-transition: left 1.5s ease, opacity 1.5s ease;
+		-ms-transition: left 1.5s ease, opacity 1.5s ease;
+		transition: left 1.5s ease, opacity 1.5s ease;
+	}
+
+	#phil-border-right {
+		position: absolute;
+		top: 80px;
+		opacity: 0;
+		right: 0em;
+		height: 90%;
+		z-index: 100;
+		-webkit-transition: right 1.5s ease, opacity 1.5s ease;
+		-moz-transition: right 1.5s ease, opacity 1.5s ease;
+		-o-transition: right 1.5s ease, opacity 1.5s ease;
+		-ms-transition: right 1.5s ease, opacity 1.5s ease;
+		transition: right 1.5s ease, opacity 1.5s ease;
+	}
+
+	@media (min-width: 620px) {
+		#phil-border-left {
+			opacity: 1;
+			height: 400px;
+		}
+
+		#phil-border-right {
+			opacity: 1;
+			height: 400px
+		}
+	}
+
+	@media (min-width: 1000px) {
+		#phil-border-left {
+			left: 30px;
+		}
+
+		#phil-border-right {
+			right: 30px;
+		}
+	}
+
+#about-background svg {
 	margin-top: 1em;
 }
 
@@ -626,59 +677,47 @@ About Page Specific
 		}
 	}
 
-#about-skills .skill-names h3{
+#about-background .skill-names h3{
 	margin-top: 1em;
 }
 
-#applied-math {
-	text-align: center;
-}
 
-#applied-math h3 {
+#applied-math h3{
 	text-align: center;
-	width: 220px;
+	width: auto;
+	border-bottom: none;
 }
 
 	@media (min-width: 550px) {
-
-		#applied-math h3{
-			margin-right: 0;
-			width: auto
-		}
-	}
-
-	@media (min-width: 638px) {
 		#applied-math h3 {
-			width: 220px;
+			text-align: right;
 		}
 	}
 
 #plus-sign {
 	display: none;
+}
+
+#plus-sign h3{
 	text-align: center;
-	
+	width: auto;
+	border-bottom: none;
 }
 
 	@media (min-width: 550px) {
 		#plus-sign {
 			display: inline;
 		}
-
-		#plus-sign h3 {
-			border-bottom: none;
-			width: auto;
-		}
 	}
 
 #computer-program {
 	display: none;
-	text-align: center;
 }
 
-#computer-program h3 {
-	text-align: center;
-	width: 240px;
-	min-width: 190px;
+#computer-program h3{
+	text-align: left;
+	width: auto;
+	border-bottom: none;
 }
 
 	@media (min-width: 550px) {
@@ -692,17 +731,13 @@ About Page Specific
 		}
 	}
 
-	@media (min-width: 695px) {
-		#computer-program h3 {
-			width: 240px;
-		}
-	}
 
 #computer-program2 {
 	text-align: center;
 	display: block;
-	width: 240px;
+	width: auto;
 	margin-top: 0;
+	border-bottom: none;
 }
 
 	@media (min-width: 550px) {
@@ -711,28 +746,40 @@ About Page Specific
 		}
 	}
 
-#profile-network img {
-	display: block;
-	margin: 0 auto;
-	width: 100%;
-}
-
-	@media (min-width: 340px) {
-		#profile-network img {
-			width: 290px;
-		}
-	}
-
-#about-education .edu-banner {
-	height: 400px;
+#about-background .edu-banner {
+	height: 430px;
 	margin-bottom: 2rem;
 }
 
-	#about-education .banner .banner-bg {
+	#about-background .banner .banner-bg {
 		z-index: -1;
 	}
 
-	#about-education h3 {
+	#about-background .banner-bg img {
+		width: 100%;
+		height: 430px;
+	}
+
+	@media (min-width: 343px) {
+		#about-background .banner-bg img {
+			width: 262px;
+		}
+	}
+
+	@media (min-width: 550px) {
+		#about-background .banner-bg img {
+			width: 100%;
+		}
+	}
+
+	@media (min-width: 691px) {
+		#about-background .banner-bg img {
+			width: 262px;
+		}
+	}
+
+
+	#about-background h3 {
 		margin-top: 0;
 	}
 
@@ -743,13 +790,35 @@ About Page Specific
 
 	.banner-content {
 		position: relative;
-		top: -360px;
-		width: 262px;
+		top: -390px;
+		width: 100%;
 		margin: 0 auto;
+	}
+
+	@media (min-width: 343px) {
+		.banner-content {
+			width: 262px;
+		}
+	}
+
+	@media (min-width: 550px) {
+		.banner-content {
+			width: 100%;;
+		}
+	}
+
+	@media (min-width: 691px) {
+		.banner-content {
+			width: 262px;
+		}
 	}
 
 	.banner-content p {
 		margin: 0;
+	}
+
+	.banner-content img {
+		margin-bottom: 2rem;
 	}
 
 	.banner-content .italic{
@@ -767,12 +836,35 @@ About Page Specific
 
 	.interests-row {
 		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 
 	.interest {
 		margin-bottom: 1rem;
 	}
 
+	.interests-row ul {
+		list-style-type: none;
+		padding: 0;
+		margin-bottom: 0;
+	}
+
+	.interests-row ul li {
+		display: inline-block;
+		width: 100%;
+	}
+
+		@media (min-width: 350px) {
+			.interests-row ul li {
+				width: 40%;
+			}
+		}
+
+		@media (min-width: 650px) {
+			.interests-row ul li {
+				width: 24%;
+			}
+		}
 
 /***************************
 About Page - JavaScript
