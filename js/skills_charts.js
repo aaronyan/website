@@ -10,7 +10,7 @@ var data_right = [87.5, 75, 75, 62.5, 62.5, 50],
 	data_skill_names = ["","Rookie","Geek","Ninja","Master"],
 	data_legend = ['','','','','','','','','','','','Back-End','Front-end'],
 	data_legend_colors = ['91e0f2','f9d595']
-	data_legend_x = [20, 60]
+	data_legend_x = [.08, .04]
 	margin = {top: 30, right: 10, bottom: 30, left: 10},
 	width = parseInt(d3.select('#right-graph').style('width'), 10),
 	width = width - margin.left - margin.right,
@@ -104,7 +104,14 @@ var key1 = canvas.append('g').selectAll(".legend")
 		.attr("width", 30)
 		.attr("height", 30)
 		.attr("y", 400)
-		.attr("x", function(d){ return widthScale(d);})
+		.attr("x", function(d, i){ 
+			if (i == 0) {
+				return widthScale(width*d-16);
+			}
+			if (i == 1){
+				return widthScale(width*d+42);
+			}
+		})
 		.attr('fill', function(d, i){ return "#"+data_legend_colors[i];})
 		.attr("class", "legend");
 
@@ -114,8 +121,11 @@ canvas.append('g').selectAll('.legendtext')
 	.append('text')
 	.text(function(d) { return d; })
 	.attr("x", function(d, i) { 
-			if (i >= 11){
-				return data_legend_x[i-11]*width/100+35;
+			if (i == 11 ) {
+				return widthScale(width*data_legend_x[i-11]-16)+35;
+			}
+			if (i == 12 ) {
+				return widthScale(width*data_legend_x[i-11]+42)+35;
 			}
 		})
 	.attr("y", 420)
@@ -132,9 +142,9 @@ var data_left = [87.5, 87.5, 75, 62.5, 62.5, 50],
 	data_left_name = ['','','','','','Linear Optimization','Excel','Machine Learning','R','Google OR-Tools','Tableau'],
 	data_left_colors = ['f9b495','b1f2e3','f9b495','b1f2e3','b1f2e3','b1f2e3'],
 	data_skill_names1 = ["Master","Ninja","Geek","Rookie",""],
-	data_legend1 = ['','','','','','','','','','','','Mathematics','Algorithm Dev.'],
+	data_legend1 = ['','','','','','','','','','','','Math','Algorithm Dev.'],
 	data_legend_colors1 = ['f9b495','b1f2e3']
-	data_legend_x1 = [20, 60]
+	data_legend_x1 = [.08, .04]
 	margin1 = {top: 30, right: 10, bottom: 30, left: 10},
 	width1 = parseInt(d3.select('#left-graph').style('width'), 10),
 	width1 = width1 - margin1.left - margin1.right,
@@ -198,10 +208,10 @@ var graph_bars1 = canvas1.append('g').selectAll(".graph_bars1")
 	.data(data_left)
 	.enter()
 		.append("rect")
-		.attr("width", function(d){ return widthScale1(d)-1;})
+		.attr("width", function(d){ return widthScale1(d);})
 		.attr("height", 40)
 		.attr("y", function(d, i){ return i*barHeight1+20;})
-		.attr("x", function(d){ return width1-widthScale1(d)+1;})
+		.attr("x", function(d){ return width1-widthScale1(d);})
 		.attr('fill', function(d, i){ return "#"+data_left_colors[i];})
 		.attr("class", "graph_bars1");
 
@@ -229,7 +239,14 @@ var key1 = canvas1.append('g').selectAll(".legend1")
 		.attr("width", 30)
 		.attr("height", 30)
 		.attr("y", 400)
-		.attr("x", function(d){ return widthScale1(d);})
+		.attr("x", function(d, i){ 
+			if (i == 0) {
+				return widthScale1(width1*d-16);
+			}
+			if (i == 1){
+				return widthScale1(width1*d+32);
+			}
+		})
 		.attr('fill', function(d, i){ return "#"+data_legend_colors1[i];})
 		.attr("class", "legend1");
 
@@ -239,8 +256,11 @@ canvas1.append('g').selectAll('.legendtext1')
 	.append('text')
 	.text(function(d) { return d; })
 	.attr("x", function(d, i) {
-		if (i >= 11 ) {
-			return data_legend_x1[i-11]*width1/100+35;
+		if (i == 11 ) {
+			return widthScale1(width1*data_legend_x1[i-11]-16)+35;
+		}
+		if (i == 12 ) {
+			return widthScale1(width1*data_legend_x1[i-11]+32)+35;
 		}
 	})
 	.attr("y", 420)
@@ -272,12 +292,22 @@ function resize() {
 
     // resize the legend
     canvas.selectAll(".legend")
-        .attr("x", function(d){ return widthScale(d);});
+        .attr("x", function(d, i){ 
+        	if (i == 0) {
+				return widthScale(width*d-16);
+			}
+			if (i == 1){
+				return widthScale(width*d+42);
+			}
+        });
 
     canvas.selectAll(".legendtext")
         .attr("x", function(d, i) { 
-			if (i >= 11){
-				return data_legend_x[i-11]*width/100+35;
+			if (i == 11 ) {
+				return widthScale(width*data_legend_x[i-11]-16)+35;
+			}
+			if (i == 12 ) {
+				return widthScale(width*data_legend_x[i-11]+42)+35;
 			}
 		});
 
@@ -310,17 +340,27 @@ function resize() {
 
     // resize the graph_bars1
     canvas1.selectAll(".graph_bars1")
-        .attr("width", function(d){ return widthScale1(d)-1;})
-        .attr("x", function(d){ return width1-widthScale1(d)+1;})
+        .attr("width", function(d){ return widthScale1(d);})
+        .attr("x", function(d){ return width1-widthScale1(d);})
 
     // resize the legend
     canvas1.selectAll(".legend1")
-        .attr("x", function(d){ return widthScale1(d);});
+        .attr("x", function(d, i){ 
+        	if (i == 0) {
+				return widthScale1(width1*d-16);
+			}
+			if (i == 1){
+				return widthScale1(width1*d+32);
+			}
+        });
 
     canvas1.selectAll(".legendtext1")
         .attr("x", function(d, i) {
-		if (i >= 11 ) {
-			return data_legend_x1[i-11]*width1/100+35;
+		if (i == 11 ) {
+			return widthScale1(width1*data_legend_x1[i-11]-16)+35;
+		}
+		if (i == 12 ) {
+			return widthScale1(width1*data_legend_x1[i-11]+32)+35;
 		}
 	});
 
