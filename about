@@ -75,7 +75,6 @@
 					<div class="twelve columns">
 						<div id="tagnameabout">
 							<h1>About Me</h1>
-							<!-- <p>my moto, background, skills.</p> -->
 						</div>
 					</div>
 				</div>
@@ -102,7 +101,7 @@
 				<div class="row regular">
 					<div class="twelve columns">
 						<h2>Philosophy.</h2>
-						<p>I will never stop learning. I will remain relentlessly curious and seek to understand problems at their most fundamental level. I will always listen so I may discover new ways to love and appreciate. I will never pass up the opportunity to help a friend and remember that we all started somewhere. I will communicate and share as much as possible because I know sharing is one of the most powerful ideas in our age of information. I am motivated by impact, regardless of the size or scale. I strive to make meaningful, consistent impacts on our daily lives by building tools that harness our shared information. I will never stop dreaming big, and I will never stop moving forward.</p>
+						<p>I will never stop learning. I will remain relentlessly curious and seek to understand problems at their most fundamental level. I will always listen so I may discover new ways to love and appreciate. I will never turn down an opportunity to help a colleague and I'll remember the days when I didn't have everything. I will communicate and share as much as possible because I know sharing is one of the most powerful ideas in our age of information. I am motivated by impact, regardless of the size or scale. I strive to make meaningful, consistent impacts on our daily lives by building tools that harness our shared information. I will never stop dreaming big, and I will never stop moving forward.</p>
 						<div id="phil-border-left">
 							<img src="images/objects/phil-cloud-left.png" alt="cloud border for philosophy text, left side">
 						</div>
@@ -183,24 +182,6 @@
 						</li>
 					</ul>
 				</div>
-				<!-- <div class="row interests-row regular">
-					<div class="three columns interest">
-						<img src="images/objects/interest-gaming.png" alt="Aaron's interst in gaming as an icon" title="Icon to show Aaron's interest in gaming">
-						<p>Gaming</p>
-					</div>
-					<div class="three columns interest">
-						<img src="images/objects/interest-magic.png" alt="Aaron's interst in magic as an icon" title="Icon to show Aaron's interest in magic">
-						<p>Magic</p>
-					</div>
-					<div class="three columns interest">
-						<img src="images/objects/interest-swimming.png" alt="Aaron's interst in swimming as an icon" title="Icon to show Aaron's interest in swimming">
-						<p>Swimming</p>
-					</div>
-					<div class="three columns interest">
-						<img src="images/objects/interest-hiking.png" alt="Aaron's interst in hiking as an icon" title="Icon to show Aaron's interest in hiking">
-						<p>Hiking</p>
-					</div>
-				</div> -->
 				<div class="row">
 					<div class="twelve columns">
 						<h3>Skills.</h3>
