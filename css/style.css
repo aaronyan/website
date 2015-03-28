@@ -56,6 +56,7 @@ Front Page & General
 
 		header img {
 			padding: 10px 0;
+			width: 72px;
 		}
 
 		header nav {
@@ -155,7 +156,7 @@ Front Page & General
 		display: block;
 		margin-left: auto;
 		margin-right: auto; 
-		width: 10em;
+		width: 150px;
 		z-index:200;
 	}
 
@@ -195,6 +196,10 @@ Front Page & General
 	display: block;
 }
   
+	#what-i-do img {
+		width: 150px;
+	}
+
 	#what-i-do h3{
 		margin: 2.5rem auto 2rem auto;
 		border-bottom: none;
@@ -225,7 +230,6 @@ Front Page & General
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 10em;
 	}
 
 	#what-i-do .even-text {
@@ -236,7 +240,6 @@ Front Page & General
 	    display: block;
 	    margin-left: auto;
 	    margin-right: auto;
-	    width: 10em;
 	}
 
 	#what-i-do .odd-text {
@@ -244,9 +247,7 @@ Front Page & General
 	}
 
 	#what-i-do .wid-icon {
-		/*position: relative;*/
 		margin-top: 2.5rem;
-		/*top: 50%;*/
 	}
 
 	@media (min-width: 550px) {
@@ -561,11 +562,11 @@ About Page Specific
 
 	@media (min-width: 390px) {
 		#datacenter-free-left img {
-			width: auto;
+			width: 160px;
 		}
 
 		#datacenter-free-right img {
-			width: auto;
+			width: 160px;
 		}
 	}
 
@@ -608,7 +609,7 @@ About Page Specific
 
 #about-intro p {
 	margin: 0 auto;
-	max-width: 485px;
+	max-width: 500px;
 	margin-bottom: 2em;
 	text-align: center;
 }
@@ -819,6 +820,7 @@ About Page Specific
 
 	.banner-content img {
 		margin-bottom: 2rem;
+		width: 103px;
 	}
 
 	.banner-content .italic{
@@ -837,6 +839,10 @@ About Page Specific
 	.interests-row {
 		margin-top: 2rem;
 		margin-bottom: 2rem;
+	}
+
+	.interests-row img {
+		width: 100px;
 	}
 
 	.interest {
