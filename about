@@ -159,6 +159,31 @@
 				</div>
 				<div class="row">
 					<div class="twelve columns">
+						<h3>Interests.</h3>
+					</div>
+				</div>
+				<div class="row regular interests-row">
+					<ul>
+						<li>
+							<img src="images/objects/interest-gaming.png" alt="Aaron's interst in gaming as an icon" title="PC master race.">
+							<p>Gaming</p>
+						</li>
+						<li>
+							<img src="images/objects/interest-magic.png" alt="Aaron's interst in magic as an icon" title="Oh ho ho. It's magic! You knoooowww..">
+							<p>Magic</p>
+						</li>
+						<li>
+							<img src="images/objects/interest-swimming.png" alt="Aaron's interst in swimming as an icon" title="Always wear a speedo. Always.">
+							<p>Swimming</p>
+						</li>
+						<li>
+							<img src="images/objects/interest-hiking.png" alt="Aaron's interst in hiking as an icon" title="The greatest adventure is what lies ahead. -J.R.R. Toklien">
+							<p>Hiking</p>
+						</li>
+					</ul>
+				</div>
+				<div class="row">
+					<div class="twelve columns">
 						<h3>Skills.</h3>
 					</div>
 				</div>
@@ -190,31 +215,6 @@
 							<script src="js/skills_charts.js"></script>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="twelve columns">
-						<h3>Interests.</h3>
-					</div>
-				</div>
-				<div class="row regular interests-row">
-					<ul>
-						<li>
-							<img src="images/objects/interest-gaming.png" alt="Aaron's interst in gaming as an icon" title="PC master race.">
-							<p>Gaming</p>
-						</li>
-						<li>
-							<img src="images/objects/interest-magic.png" alt="Aaron's interst in magic as an icon" title="Oh ho ho. It's magic! You knoooowww..">
-							<p>Magic</p>
-						</li>
-						<li>
-							<img src="images/objects/interest-swimming.png" alt="Aaron's interst in swimming as an icon" title="Always wear a speedo. Always.">
-							<p>Swimming</p>
-						</li>
-						<li>
-							<img src="images/objects/interest-hiking.png" alt="Aaron's interst in hiking as an icon" title="The greatest adventure is what lies ahead. -J.R.R. Toklien">
-							<p>Hiking</p>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</section>
