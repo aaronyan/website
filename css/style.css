@@ -78,6 +78,13 @@ Front Page & General
 					display: inline-block;
 				}
 
+				.not-active {
+				   pointer-events: none;
+				   cursor: default;
+				   opacity: .2;
+				}
+
+
 #banner {
 	background: #bddeff;
 	background-size: cover;

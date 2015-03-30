@@ -54,8 +54,8 @@
 						<nav>
 							<ul>
 								<li><a href="about">About</a></li>
-								<li><a href="">Work</a></li>
-								<li><a href="">Contact</a></li>
+								<li><a href="" class="not-active">Work</a></li>
+								<li><a href="" class="not-active">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -184,7 +184,7 @@
 						<a class="button button-primary first-b" href="about">About me</a>
 					</div>
 					<div class="six columns">
-						<a class="button button-primary second-b" href="">View work</a>
+						<a class="button button-primary second-b not-active" href="">View work</a>
 					</div>
 				</div>
 				<div id="end-note" class="row regular">
