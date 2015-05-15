@@ -501,6 +501,11 @@ Front Page & General
 			color: white;
 		}
 
+		.icon.circle.fa-wordpress {
+			background: #519BBD;
+			color: white;
+		}
+
 	.icon > .label {
 		display: none;
 	}
