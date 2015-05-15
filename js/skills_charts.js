@@ -138,9 +138,9 @@ canvas.append('g').selectAll('.legendtext')
 
 // INITIAL VARIABLES
 
-var data_left = [87.5, 87.5, 75, 62.5, 62.5, 50],
-	data_left_name = ['','','','','','Linear Optimization','Excel','Machine Learning','R','Google OR-Tools','Tableau'],
-	data_left_colors = ['f9b495','b1f2e3','f9b495','b1f2e3','b1f2e3','b1f2e3'],
+var data_left = [87.5, 87.5, 75, 62.5, 50, 50],
+	data_left_name = ['','','','','','LP/IP Optimization','Excel','Stochastic Processes','Google OR-Tools','Machine Learning','Tableau'],
+	data_left_colors = ['f9b495','b1f2e3','f9b495','b1f2e3','f9b495','b1f2e3'],
 	data_skill_names1 = ["Master","Ninja","Geek","Rookie",""],
 	data_legend1 = ['','','','','','','','','','','','Math','Algorithm Dev.'],
 	data_legend_colors1 = ['f9b495','b1f2e3']
