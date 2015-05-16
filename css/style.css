@@ -619,6 +619,14 @@ About Page Specific
 	margin-top: 2rem;
 }
 
+	#about-intro #fn1 {
+		text-align: center;
+		display: block;
+		opacity: .5;
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+
 #about-intro p {
 	margin: 0 auto;
 	max-width: 500px;

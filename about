@@ -101,13 +101,16 @@
 				<div class="row regular">
 					<div class="twelve columns">
 						<h2>Philosophy.</h2>
-						<p>I will never stop learning. I will remain relentlessly curious and seek to understand problems at their most fundamental level. I will always listen so I may discover new ways to love and appreciate. I will never turn down an opportunity to help a colleague and I'll remember the days when I didn't have everything. I will communicate and share as much as possible because I know sharing is one of the most powerful ideas in our age of information. I am motivated by impact, regardless of the size or scale. I strive to make meaningful, consistent impacts on our daily lives by building tools that harness our shared information. I will never stop dreaming big, and I will never stop moving forward.</p>
+						<p>I will never stop learning. I will remain relentlessly curious and seek to understand problems at their most fundamental level. I will always listen so I may discover new ways to love and appreciate. I will never turn down an opportunity to help a colleague and I'll remember the days when I didn't have everything <sup><a href="http://ma.tt/2011/09/automattic-creed/" id="ref1">1</a></sup>. I will communicate and share as much as possible because I know sharing is one of the most powerful ideas in our age of information. I am motivated by impact, regardless of the size or scale. I strive to make meaningful, consistent impacts on our daily lives by building tools that harness our shared information. I will never stop dreaming big, and I will never stop moving forward.</p>
 						<div id="phil-border-left">
 							<img src="images/objects/phil-cloud-left.png" alt="cloud border for philosophy text, left side">
 						</div>
 						<div id="phil-border-right">
 							<img src="images/objects/phil-cloud-right.png" alt="cloud border for philosophy text, right side">
 						</div>
+					</div>
+					<div class="twelve columns">
+						<sup id="fn1">1. Quoted and inspired by <a href="http://ma.tt/2011/09/automattic-creed/" title="Jump back to footnote 1 in the text.">Automattic's creed.</a></sup>
 					</div>
 				</div>
 			</div>
