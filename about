@@ -101,7 +101,7 @@
 				<div class="row regular">
 					<div class="twelve columns">
 						<h2>Philosophy.</h2>
-						<p>I will never stop learning. I will remain relentlessly curious and seek to understand problems at their most fundamental level. I will always listen so I may discover new ways to love and appreciate. I will never turn down an opportunity to help a colleague and I'll remember the days when I didn't have everything <sup><a href="http://ma.tt/2011/09/automattic-creed/" id="ref1">1</a></sup>. I will communicate and share as much as possible because I know sharing is one of the most powerful ideas in our age of information. I am motivated by impact, regardless of the size or scale. I strive to make meaningful, consistent impacts on our daily lives by building tools that harness our shared information. I will never stop dreaming big, and I will never stop moving forward.</p>
+						<p>I will never stop learning. I will remain relentlessly curious and seek to understand problems at their most fundamental level. I will always listen so I may discover new ways to love and appreciate. I will never turn down an opportunity to help a colleague and I'll remember the days when I didn't have everything <sup><a target="_blank" href="http://ma.tt/2011/09/automattic-creed/" id="ref1">1</a></sup>. I will communicate and share as much as possible because I know sharing is one of the most powerful ideas in our age of information. I am motivated by impact, regardless of the size or scale. I strive to make meaningful, consistent impacts on our daily lives by building tools that harness our shared information. I will never stop dreaming big, and I will never stop moving forward.</p>
 						<div id="phil-border-left">
 							<img src="images/objects/phil-cloud-left.png" alt="cloud border for philosophy text, left side">
 						</div>
@@ -110,7 +110,7 @@
 						</div>
 					</div>
 					<div class="twelve columns">
-						<sup id="fn1">1. Quoted and inspired by <a href="http://ma.tt/2011/09/automattic-creed/" title="Jump back to footnote 1 in the text.">Automattic's creed.</a></sup>
+						<sup id="fn1">1. Quoted and inspired by <a target="_blank" href="http://ma.tt/2011/09/automattic-creed/" title="Jump back to footnote 1 in the text.">Automattic's creed.</a></sup>
 					</div>
 				</div>
 			</div>
@@ -236,7 +236,7 @@
 				</div>
 				<div id="end-note" class="row regular">
 					<div class="twelve columns">
-						<p>Check out some of my latest work on data manipulation and machine learning! I love sharing my new ideas and experiments. All of my work can also be found on <a href="https://github.com/aaronyan">GitHub</a>.</p>
+						<p>Check out some of my latest work on data manipulation and machine learning! I love sharing my new ideas and experiments. All of my work can also be found on <a target="_blank" href="https://github.com/aaronyan">GitHub</a>.</p>
 					</div>
 				</div>
 			</div>
@@ -246,17 +246,17 @@
 				<div class="row">
 					<div class="twelve columns">
 						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/aaronmyan" class="icon circle fa fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/aaronyan" class="icon circle fa fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://twitter.com/aaronyan" class="icon circle fa fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/aaronmyan" class="icon circle fa fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="http://aarontheintern.com/" class="icon circle fa fa-wordpress"><span class="label">Wordpress</span></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/aaronmyan" class="icon circle fa fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a target="_blank" href="https://github.com/aaronyan" class="icon circle fa fa-github"><span class="label">GitHub</span></a></li>
+							<li><a target="_blank" href="https://twitter.com/aaronyan" class="icon circle fa fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a target="_blank" href="https://www.facebook.com/aaronmyan" class="icon circle fa fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a target="_blank" href="http://aarontheintern.com/" class="icon circle fa fa-wordpress"><span class="label">Wordpress</span></a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="row">
 					<div class="twelve columns">
-						<p class ="footer-tag">Designed, illustrated, and <a href="https://github.com/aaronyan/website">coded</a>.</p>
+						<p class ="footer-tag">Designed, illustrated, and <a target="_blank" href="https://github.com/aaronyan/website">coded</a>.</p>
 					</div>
 				</div>
 				<div class="row">

@@ -199,17 +199,17 @@
 				<div class="row">
 					<div class="twelve columns">
 						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/aaronmyan" class="icon circle fa fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/aaronyan" class="icon circle fa fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://twitter.com/aaronyan" class="icon circle fa fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/aaronmyan" class="icon circle fa fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="http://aarontheintern.com/" class="icon circle fa fa-wordpress"><span class="label">Wordpress</span></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/aaronmyan" class="icon circle fa fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a target="_blank" href="https://github.com/aaronyan" class="icon circle fa fa-github"><span class="label">GitHub</span></a></li>
+							<li><a target="_blank" href="https://twitter.com/aaronyan" class="icon circle fa fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a target="_blank" href="https://www.facebook.com/aaronmyan" class="icon circle fa fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a target="_blank" href="http://aarontheintern.com/" class="icon circle fa fa-wordpress"><span class="label">Wordpress</span></a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="row">
 					<div class="twelve columns">
-						<p class ="footer-tag">Designed, illustrated, and <a href="https://github.com/aaronyan/website">coded</a>.</p>
+						<p class ="footer-tag">Designed, illustrated, and <a target="_blank" href="https://github.com/aaronyan/website">coded</a>.</p>
 					</div>
 				</div>
 				<div class="row">
