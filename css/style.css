@@ -636,7 +636,7 @@ About Page Specific
 
 	#phil-border-left {
 		position: absolute;
-		top: 80px;
+		top: 108px;
 		opacity: 0;
 		left: 0em;
 		height: 90%;
@@ -650,7 +650,7 @@ About Page Specific
 
 	#phil-border-right {
 		position: absolute;
-		top: 80px;
+		top: 108px;
 		opacity: 0;
 		right: 0em;
 		height: 90%;
