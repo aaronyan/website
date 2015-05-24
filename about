@@ -42,7 +42,7 @@
 						<nav>
 							<ul>
 								<li><a href="about">About</a></li>
-								<li><a href="" class="not-active">Work</a></li>
+								<li><a href="work/summary">Work</a></li>
 								<li><a href="" class="not-active">Contact</a></li>
 							</ul>
 						</nav>
