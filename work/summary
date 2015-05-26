@@ -88,34 +88,12 @@
 				<div class="row regular">
 					<div class="twelve columns">
 						<h2>Projects.</h2>
-							<ul>
-								<li>
-									<p>List.</p>
-								</li>
-								<li>
-									<p>Screen.</p>
-								</li>
-								<li>
-									<p>Compare.</p>
-								</li>
-								<li>
-									<p>Spend.</p>
-								</li>
-							</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="work-source">
-			<div class="container">
-				<div class="row regular">
-					<div class="twelve columns">
-						<h2>Source.</h2>
 						<p></p>
 					</div>
 				</div>
 			</div>
 		</section>
+		
 		<footer id="footer">
 			<div class="container">
 				<div class="row">
