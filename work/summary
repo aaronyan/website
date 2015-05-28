@@ -85,25 +85,35 @@
 		</section>
 		<section id="work-projects">
 			<div class="container">
-				<div class="row regular">
-					<div class="twelve columns">
-						<h2>Projects.</h2>
-							<ul>
-								<li>
-									<p>List.</p>
-								</li>
-								<li>
-									<p>Screen.</p>
-								</li>
-								<li>
-									<p>Compare.</p>
-								</li>
-								<li>
-									<p>Spend.</p>
-								</li>
-							</ul>
+				<h2>Projects.</h2>
+				<ul>
+					<div class="row regular">
+						<div class="six columns">
+							<li>
+								<p>List</p>
+							</li>
+						</div>
+
+						<div class="six columns">
+							<li>
+								<p>Screen</p>
+							</li>
+						</div>
 					</div>
-				</div>
+					<div class="row regular">
+						<div class="six columns">
+							<li>
+								<p>Compare</p>
+							</li>
+						</div>
+
+						<div class="six columns">
+							<li>
+								<p>Spend</p>
+							</li>
+						</div>
+					</div>
+				</ul>
 			</div>
 		</section>
 		<section id="work-source">
