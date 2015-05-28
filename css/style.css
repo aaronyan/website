@@ -1026,3 +1026,17 @@ About Page - JavaScript
 		stroke: none;
 	}
 
+/***************************
+Work Page Specific
+***************************/
+
+#work-projects h2 {
+	margin-top: 2rem;
+}
+
+#work-projects ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+
