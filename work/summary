@@ -90,12 +90,14 @@
 					<div class="row regular">
 						<div class="six columns">
 							<li>
+								<img src="../images/objects/work-proj-empty.png">
 								<p>List</p>
 							</li>
 						</div>
 
 						<div class="six columns">
 							<li>
+								<img src="../images/objects/work-proj-empty.png">
 								<p>Screen</p>
 							</li>
 						</div>
@@ -103,12 +105,14 @@
 					<div class="row regular">
 						<div class="six columns">
 							<li>
+								<img src="../images/objects/work-proj-empty.png">
 								<p>Compare</p>
 							</li>
 						</div>
 
 						<div class="six columns">
 							<li>
+								<img src="../images/objects/work-proj-empty.png">
 								<p>Spend</p>
 							</li>
 						</div>
