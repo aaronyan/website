@@ -1032,11 +1032,21 @@ Work Page Specific
 
 #work-projects h2 {
 	margin-top: 2rem;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#work-projects h3 {
+	margin-bottom: 1.5em;
 }
 
 #work-projects ul {
 	list-style-type: none;
 	text-align: center;
+}
+
+#work-projects ul li p{
+	margin-top: .5em;
 }
 
 #work-source {

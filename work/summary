@@ -90,30 +90,34 @@
 					<div class="row regular">
 						<div class="six columns">
 							<li>
+								<h3>Line</h3>
 								<img src="../images/objects/work-proj-empty.png">
-								<p>List</p>
+								<p>Python, D3.js, MongoDB</p>
 							</li>
 						</div>
 
 						<div class="six columns">
 							<li>
+								<h3>Cloud Screen</h3>
 								<img src="../images/objects/work-proj-empty.png">
-								<p>Screen</p>
+								<p>Python, Docker, Google GCE</p>
 							</li>
 						</div>
 					</div>
 					<div class="row regular">
 						<div class="six columns">
 							<li>
+								<h3>Cloud Spend</h3>
 								<img src="../images/objects/work-proj-empty.png">
-								<p>Compare</p>
+								<p>Excel, HTML, CSS, Bootstrap</p>
 							</li>
 						</div>
 
 						<div class="six columns">
 							<li>
+								<h3>Cloud Compare</h3>
 								<img src="../images/objects/work-proj-empty.png">
-								<p>Spend</p>
+								<p>Excel, Visual Basic</p>
 							</li>
 						</div>
 					</div>
