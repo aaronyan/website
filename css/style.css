@@ -1037,16 +1037,31 @@ Work Page Specific
 }
 
 #work-projects h3 {
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 #work-projects ul {
+	padding-left: 0;
 	list-style-type: none;
 	text-align: center;
 }
 
+#work-projects .thumbs {
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 3px;
+	box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
+}
+
+#work-projects .thumbs img {
+	width: 90%;
+	margin-top: 1em;
+}
+
 #work-projects ul li p{
-	margin-top: .5em;
+	padding: .5em .5em;
+	padding-bottom: 1em
 }
 
 #work-source {

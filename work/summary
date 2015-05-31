@@ -91,16 +91,20 @@
 						<div class="six columns">
 							<li>
 								<h3>Line</h3>
-								<img src="../images/objects/work-proj-empty.png">
-								<p>Python, D3.js, MongoDB</p>
+								<div class="thumbs">
+									<img src="../images/objects/work-proj-empty.png">
+									<p>Python, D3.js, MongoDB</p>
+								</div>
 							</li>
 						</div>
 
 						<div class="six columns">
 							<li>
 								<h3>Cloud Screen</h3>
-								<img src="../images/objects/work-proj-empty.png">
-								<p>Python, Docker, Google GCE</p>
+								<div class="thumbs">
+									<img src="../images/objects/work-proj-empty.png">
+									<p>Python, Docker, Google GCE</p>
+								</div>
 							</li>
 						</div>
 					</div>
@@ -108,16 +112,20 @@
 						<div class="six columns">
 							<li>
 								<h3>Cloud Spend</h3>
-								<img src="../images/objects/work-proj-empty.png">
-								<p>Excel, HTML, CSS, Bootstrap</p>
+								<div class="thumbs">
+									<img src="../images/objects/work-proj-empty.png">
+									<p>Excel, HTML, CSS, Bootstrap</p>
+								</div>
 							</li>
 						</div>
 
 						<div class="six columns">
 							<li>
 								<h3>Cloud Compare</h3>
-								<img src="../images/objects/work-proj-empty.png">
-								<p>Excel, Visual Basic</p>
+								<div class="thumbs">
+									<img src="../images/objects/work-proj-empty.png">
+									<p>Excel, Visual Basic</p>
+								</div>
 							</li>
 						</div>
 					</div>
