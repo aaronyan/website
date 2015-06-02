@@ -1068,4 +1068,10 @@ Work Page Specific
 	text-align: center;
 }
 
+#work-source p {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+}
+
 
