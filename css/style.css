@@ -1054,10 +1054,19 @@ Work Page Specific
 	box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
 }
 
-#work-projects .thumbs img {
-	width: 90%;
-	margin-top: 1em;
-}
+	#work-projects .thumbs:hover {
+		opacity: 0.5;
+		-webkit-transition: opacity .5s ease;
+		-moz-transition: opacity .5s ease;
+		-o-transition: opacity .5s ease;
+		-ms-transition: opacity .5s ease;
+		transition: opacity .5s ease;
+	}
+
+	#work-projects .thumbs img {
+		width: 90%;
+		margin-top: 1em;
+	}
 
 #work-projects ul li p{
 	padding: .5em .5em;
@@ -1068,10 +1077,10 @@ Work Page Specific
 	text-align: center;
 }
 
-#work-source p {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 500px;
-}
+	#work-source p {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 500px;
+	}
 
 
