@@ -1054,13 +1054,16 @@ Work Page Specific
 	box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
 }
 
-	#work-projects .thumbs:hover {
+	.thumbs-pic {
+		-webkit-transition: opacity .5s ease-in-out;
+		-moz-transition: opacity .5s ease-in-out;
+		-o-transition: opacity .5s ease-in-out;
+		-ms-transition: opacity .5s ease-in-out;
+		transition: opacity .5s ease-in-out;
+	}
+
+	.thumbs:hover > .thumbs-pic {
 		opacity: 0.5;
-		-webkit-transition: opacity .5s ease;
-		-moz-transition: opacity .5s ease;
-		-o-transition: opacity .5s ease;
-		-ms-transition: opacity .5s ease;
-		transition: opacity .5s ease;
 	}
 
 	#work-projects .thumbs img {
