@@ -142,7 +142,26 @@
 				</div>
 			</div>
 		</section>
-		
+		<section id="what-else">
+			<div class="special container">
+				<div class="row">
+					<h2>More?</h2>
+				</div>
+				<div class="row">
+					<div class="six columns">
+						<a class="button button-primary first-b" href="../about">About</a>
+					</div>
+					<div class="six columns">
+						<a class="button button-primary second-b not-active" href="">Contact</a>
+					</div>
+				</div>
+				<div id="end-note" class="row regular">
+					<div class="twelve columns">
+						<p>Thanks for checking out my website. If you're looking to learn more about about me, I also have a <a target="_blank" href="http://www.aarontheintern.com">blog</a>. Feel free to contact me!</p>
+					</div>
+				</div>
+			</div>
+		</section>
 		<footer id="footer">
 			<div class="container">
 				<div class="row">
