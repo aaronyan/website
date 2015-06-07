@@ -1027,7 +1027,7 @@ About Page - JavaScript
 	}
 
 /***************************
-Work Page Specific
+Work Page Summary
 ***************************/
 
 #work-projects h2 {
@@ -1091,3 +1091,11 @@ Work Page Specific
 	margin-bottom: 2em;
 }
 
+/***************************
+Work Page Specific
+***************************/
+
+#line-intro h2 {
+	font-weight: 300;
+	font-size: 5rem;
+}
