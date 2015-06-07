@@ -1086,4 +1086,8 @@ Work Page Specific
 		max-width: 500px;
 	}
 
+#octocat {
+	max-width: 15em;
+	margin-bottom: 2em;
+}
 
