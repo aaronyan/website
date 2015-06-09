@@ -90,21 +90,25 @@
 					<div class="row regular">
 						<div class="six columns">
 							<li>
-								<h3>Line</h3>
-								<div class="thumbs">
-									<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
-									<p>Python, D3.js, MongoDB</p>
-								</div>
+								<a href="line">
+									<h3>Line</h3>
+									<div class="thumbs">
+										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
+										<p>Python, D3.js, MongoDB</p>
+									</div>
+								</a>
 							</li>
 						</div>
 
 						<div class="six columns">
 							<li>
-								<h3>Cloud Screen</h3>
-								<div class="thumbs">
-									<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
-									<p>Python, Docker, Google GCE</p>
-								</div>
+								<a href="">
+									<h3>Cloud Screen</h3>
+									<div class="thumbs">
+										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
+										<p>Python, Docker, Google GCE</p>
+									</div>
+								</a>
 							</li>
 						</div>
 					</div>
