@@ -88,6 +88,26 @@
 				<h2>Project Line</h2>
 			</div>
 		</section>
+		<section id="what-is-line">
+			<div class="special container">
+				<h2>What is Project Line?</h2>
+			</div>
+		</section>
+		<section id="why-line">
+			<div class="special container">
+				<h2>Why Project Line?</h2>
+			</div>
+		</section>
+		<section id="how-line">
+			<div class="special container">
+				<h2>How does it work?</h2>
+			</div>
+		</section>
+		<section id="results-line">
+			<div class="special container">
+				<h2>Simulation Results.</h2>
+			</div>
+		</section>
 		<section id="what-else">
 			<div class="special container">
 				<div class="row">
