@@ -115,21 +115,25 @@
 					<div class="row regular">
 						<div class="six columns">
 							<li>
-								<h3>Cloud Spend</h3>
-								<div class="thumbs">
-									<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
-									<p>Excel, HTML, CSS, Bootstrap</p>
-								</div>
+								<a href="">
+									<h3>Cloud Spend</h3>
+									<div class="thumbs">
+										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
+										<p>Excel, HTML, CSS, Bootstrap</p>
+									</div>
+								</a>
 							</li>
 						</div>
 
 						<div class="six columns">
 							<li>
-								<h3>Cloud Compare</h3>
-								<div class="thumbs">
-									<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
-									<p>Excel, Visual Basic</p>
-								</div>
+								<a href="">
+									<h3>Cloud Compare</h3>
+									<div class="thumbs">
+										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
+										<p>Excel, Visual Basic</p>
+									</div>
+								</a>
 							</li>
 						</div>
 					</div>
