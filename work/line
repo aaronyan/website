@@ -87,16 +87,24 @@
 		<section id="line-intro">
 			<div class="container">
 				<h2>Project Line</h2>
+				<p></p>
 			</div>
 		</section>
 		<section id="what-is-line">
 			<div class="special container">
 				<h2>What is Project Line?</h2>
-			</div>
-		</section>
-		<section id="why-line">
-			<div class="special container">
-				<h2>Why Project Line?</h2>
+				<p >Project Line is a queueing and point of sale algorithm designed to reduce on-premise wait time to zero minutes, service a customer as soon as they arrive, and maximize a business's throughput without adjusting staff or supply.</p>
+				<p id="line-def-intro">Many of us look at waiting in lines as a supply problem. It is. Not enough seats at a restaurant? Too many guests at a theme park? A peice of this supply problem can be solved using information. By communicating between the business and the customer before the customer arrives, both groups benefit from more convenient lines and faster service.</p>
+				<div class="row regular">
+					<div class="six columns">
+						<h3>For Customers</h3>
+						<p>Less waiting, faster service.</p>
+					</div>
+					<div class="six columns">
+						<h3>For Businesses</h3>
+						<p>Increased efficiency, happy customers.</p>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="how-line">
