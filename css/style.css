@@ -1062,9 +1062,12 @@ Work Page Summary
 		transition: opacity .3s ease-in-out;
 	}
 
-	.thumbs:hover > .thumbs-pic {
-		opacity: 0.7;
+	.thumbs-link {
+		text-decoration: none;
 	}
+	/*.thumbs:hover {
+		opacity: 0.7;
+	}*/
 
 	#work-projects .thumbs img {
 		width: 90%;
