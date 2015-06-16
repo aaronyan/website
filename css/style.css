@@ -1105,4 +1105,10 @@ Work Page Specific
 #line-intro h2 {
 	font-weight: 300;
 	font-size: 5rem;
+	margin-top: 2rem;
 }
+
+#line-def-intro{
+	margin-bottom: 0;
+}
+
