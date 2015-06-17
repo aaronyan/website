@@ -61,7 +61,7 @@
 					</div>
 					<div class="twelve columns">
 						<div id="tagnameabout">
-							<h1>Work</h1>
+							<h2 id="line-intro">Project Line</h2>
 						</div>
 					</div>
 				</div>
