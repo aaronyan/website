@@ -103,7 +103,7 @@
 						<div class="six columns">
 							<li>
 								<h3>Cloud Screen</h3>
-								<a class="thumbs-link" href="">
+								<a class="thumbs-link not-active-button" href="">
 									<div class="thumbs">
 										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
 										<p>Python, Docker, Google GCE</p>
@@ -116,7 +116,7 @@
 						<div class="six columns">
 							<li>
 								<h3>Cloud Spend</h3>
-								<a class="thumbs-link" href="">
+								<a class="thumbs-link not-active-button" href="">
 									<div class="thumbs">
 										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
 										<p>Excel, HTML, CSS, Bootstrap</p>
@@ -128,7 +128,7 @@
 						<div class="six columns">
 							<li>
 								<h3>Cloud Compare</h3>
-								<a class="thumbs-link" href="">
+								<a class="thumbs-link not-active-button" href="">
 									<div class="thumbs">
 										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
 										<p>Excel, Visual Basic</p>

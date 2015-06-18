@@ -84,6 +84,12 @@ Front Page & General
 				   opacity: .2;
 				}
 
+				.not-active-button {
+				   pointer-events: none;
+				   cursor: default;
+				   opacity: .6;
+				}
+
 
 #banner {
 	background: #bddeff;
