@@ -87,7 +87,7 @@
 			<div class="container">
 				<h2>What is Project Line?</h2>
 				<p >Project Line is a queueing and point of sale algorithm designed to reduce on-premise wait time to zero minutes, service a customer as soon as they arrive, and maximize a business's throughput without adjusting staff or supply.</p>
-				<p id="line-def-intro">Many of us look at waiting in lines as a supply problem. It is. Not enough seats at a restaurant? Too many guests at a theme park? A peice of this supply problem can be solved using information. By communicating between the business and the customer before the customer arrives, both groups benefit from more convenient lines and faster service.</p>
+				<p id="line-def-intro">Many of us look at waiting in lines as a supply problem. It is. Not enough seats at a restaurant? Too many guests at a theme park? A piece of this supply problem can be solved using information. By communicating between the business and the customer before the customer arrives, both groups benefit from more convenient lines and faster service.</p>
 				<div class="row regular">
 					<div class="six columns">
 						<h3>For Customers</h3>
@@ -103,7 +103,9 @@
 		<section id="how-line">
 			<div class="special container">
 				<h2>How does it work?</h2>
+				<p>The algorithm facilitates the communication between the customer and business to find the most convenient time for both parties. Once a time has been established, the algorithm will schedule the necessary resources to meet the order and time requirements.</p>
 				<h2>How is this different?</h2>
+				<p>Project Line lowers waiting times, optimizes orders with business resources, and improves customer convenience.</p>
 				<p>Let's compare three types of lines: <br>the Line algorithm, basic virtual lines, and physical lines.</p>
 				<ol>
 					<li>It is a line of guests</li>
