@@ -108,9 +108,14 @@
 				<p>Project Line lowers waiting times, optimizes orders with business resources, and improves customer convenience.</p>
 				<p>Let's compare three types of lines: <br>the Line algorithm, basic virtual lines, and physical lines.</p>
 				<ol>
-					<li>It is a line of guests</li>
-					<li>Customers receive service immediately.</li>
-					<li>Businesses use real-time customer requests to increase throughput.</li>
+					<li>A line of guests</li>
+					<li>Online notifications</li>
+					<li>Online payment</li>
+					<li>Guest convenience</li>
+					<li>Guest selective arrival</li>
+					<li>Real-time GPS and traffic info</li>
+					<li>Immediate service</li>
+					<li>Optimize supply to meet demand</li>
 				</ol>
 			</div>
 		</section>
