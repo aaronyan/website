@@ -107,7 +107,7 @@
 				<h2>How is this different?</h2>
 				<p>Project Line lowers waiting times, optimizes orders with business resources, and improves customer convenience.</p>
 				<p>Let's compare three types of lines: <br>the Line algorithm, basic virtual lines, and physical lines.</p>
-				<ol>
+				<ul>
 					<li>A line of guests</li>
 					<li>Waiting location flexibility</li>
 					<li>Business to guest communication</li>
@@ -117,13 +117,25 @@
 					<li>Real-time GPS and traffic info</li>
 					<li>Immediate on-premise service</li>
 					<li>Optimize supply to meet demand</li>
-				</ol>
+				</ul>
 			</div>
 		</section>
 		<section id="why-line">
 			<div class="special container">
 				<h2>Why Project Line?</h2>
-				<p>The Line algorithm reduces guests waiting by 35% and increases a business' profit by up to 10% <sup><a target="_blank" href="" id="ref2">2</a></sup>.</p>
+				<div id="line-stats" class="row regular">
+					<div class="six columns">
+						<h3>Customers</h3>
+						<p>35%</p>
+						<p>Time Savings</p>
+					</div>
+					<div class="six columns">
+						<h3>Businesses</h3>
+						<p>10%</p>
+						<p>Increased Profit</p>
+					</div>
+				</div>
+				<p>The Line algorithm reduces guest waiting by 35% and increases business profit by 10% <sup><a target="_blank" href="" id="ref2">2</a></sup>.</p>
 			</div>
 		</section>
 		<section id="what-else">
