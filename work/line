@@ -126,13 +126,13 @@
 				<div id="line-stats" class="row regular">
 					<div class="six columns">
 						<h3>Customers</h3>
-						<p>35%</p>
-						<p>Time Savings</p>
+						<p class="stat-main">35%</p>
+						<p class="stat-sub">time savings <sup><a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">2</a></sup></p>
 					</div>
 					<div class="six columns">
 						<h3>Businesses</h3>
-						<p>10%</p>
-						<p>Increased Profit</p>
+						<p class="stat-main">10%</p>
+						<p class="stat-sub">faster service <sup><a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">2</a></sup></p>
 					</div>
 				</div>
 				<p>The Line algorithm reduces guest waiting by 35% and increases business profit by 10% <sup><a target="_blank" href="" id="ref2">2</a></sup>.</p>

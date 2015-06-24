@@ -1122,3 +1122,21 @@ Work Page Specific
 	margin-bottom: 0;
 }
 
+#why-line h2 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#why-line .stat-main {
+	font-weight: 300;
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+#why-line .stat-sub {
+	margin-bottom: 0;
+}
+
+#why-line .after-h3 {
+	margin-top: 2.5rem;
+}
