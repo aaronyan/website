@@ -135,7 +135,12 @@
 						<p class="stat-sub">faster service <sup><a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">2</a></sup></p>
 					</div>
 				</div>
-				<p>The Line algorithm reduces guest waiting by 35% and increases business profit by 10% <sup><a target="_blank" href="" id="ref2">2</a></sup>.</p>
+				<p class="after-h3">The Line algorithm saves customers and businesses time and produces happier customers and improves profit margins.</p>
+			</div>
+			<div class="row">
+				<div class="twelve columns">
+					<sup id="fn2">2. Simulation parameters and results will be posted on <a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">my blog</a>.</sup>
+				</div>
 			</div>
 		</section>
 		<section id="what-else">

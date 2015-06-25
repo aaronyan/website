@@ -1140,3 +1140,12 @@ Work Page Specific
 #why-line .after-h3 {
 	margin-top: 2.5rem;
 }
+
+#fn2 {
+	text-align: center;
+	display: block;
+	opacity: .5;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	z-index: 300;
+}
