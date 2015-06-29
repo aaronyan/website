@@ -67,17 +67,12 @@
 				</div>
 			</div>
 		</section>
-		<section id="banner-img-about">
+		<section id="banner-img">
 			<div class="container">
 				<div class="row">
-					<div class="six columns">
-						<div id="datacenter-free-left">
-							<img src="../images/objects/dataCenter-left.png" alt="Free floating datacenter, left side.">
-						</div>
-					</div>
-					<div class="six columns datacenter-free-right">
-						<div id="datacenter-free-right">
-							<img src="../images/objects/dataCenter-right.png" alt="Free floating datacenter, right side.">
+					<div class="twelve columns">
+						<div id="line-mock">
+							<img src="../images/objects/line-mock.png" alt="Mock of Project Line on iPhone and iPad." title="Mock of Project Line">
 						</div>
 					</div>
 				</div>
