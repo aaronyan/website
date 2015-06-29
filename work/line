@@ -60,8 +60,8 @@
 						<img src="../images/objects/cloudframe.png" alt="cloud that frames the banner">
 					</div>
 					<div class="twelve columns">
-						<div id="tagnameabout">
-							<h2 id="line-intro">Project Line</h2>
+						<div id="tagname-project-line">
+							<h1>Project Line</h1>
 						</div>
 					</div>
 				</div>
