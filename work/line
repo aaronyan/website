@@ -53,7 +53,7 @@
 		<section id="banner">
 			<div class="container">
 				<div class="row">
-					<div class="cloud left-cloud transition notagp">
+					<div id="project-line-cloud-special" class="cloud left-cloud transition notagp">
 						<img src="../images/objects/cloudframe.png" alt="cloud that frames the banner">
 					</div>
 					<div class="cloud right-cloud transition">

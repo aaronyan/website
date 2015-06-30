@@ -1105,6 +1105,23 @@ Work Page Summary
 Work Page Specific
 ***************************/
 
+#tagname-project-line {
+	text-align: center;
+  margin: 4em 0 0 0;
+  height: 10em;
+  background-color: #bddeff;
+}
+
+	#project-line-cloud-special {
+		bottom: 2em;
+	}
+
+	@media (min-width: 1000px) {
+	    #project-line-cloud-special {
+				bottom: 4em;
+			}
+	}
+
 #line p {
 	max-width: 500px;
 	text-align: center;
