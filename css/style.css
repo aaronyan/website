@@ -127,12 +127,16 @@ Front Page & General
   	#datacenter img {
 	  	width:100%;
 	  	margin-bottom: -3em;
-		padding-top: 1.2em;
-		-webkit-transition: margin-bottom .5s ease;
-		-moz-transition: margin-bottom .5s ease;
-		-o-transition: margin-bottom .5s ease;
-		-ms-transition: margin-bottom .5s ease;
-		transition: margin-bottom .5s ease;
+			padding-top: 1.2em;
+			-webkit-transition: margin-bottom .5s ease;
+			-moz-transition: margin-bottom .5s ease;
+			-o-transition: margin-bottom .5s ease;
+			-ms-transition: margin-bottom .5s ease;
+			transition: margin-bottom .5s ease;
+			display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index:190;
 	}
 
 	@media (min-width: 1000px) {
