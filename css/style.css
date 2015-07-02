@@ -141,17 +141,10 @@ Front Page & General
 
 	@media (min-width: 1000px) {
 	    #datacenter img {
-	    width:85%;
-	    margin-bottom: -5em;
+		    width:85%;
+		    margin-bottom: -5em;
 	    }
 	}
-
-  	#datacenter img {
-      	display: block;
-        margin-left: auto;
-        margin-right: auto;
-        z-index:190;
-    }
 
 #intro {
 	text-align: center;
