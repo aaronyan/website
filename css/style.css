@@ -87,7 +87,10 @@ Front Page & General
 				.not-active-button {
 				   pointer-events: none;
 				   cursor: default;
-				   opacity: .6;
+				}
+
+				.not-active-thumb {
+					opacity: .6;
 				}
 
 
@@ -1069,9 +1072,17 @@ Work Page Summary
 	.thumbs-link {
 		text-decoration: none;
 	}
-	/*.thumbs:hover {
+
+	.thumbs{
+		-webkit-transition: opacity .3s ease-in-out;
+		-moz-transition: opacity .3s ease-in-out;
+		-o-transition: opacity .3s ease-in-out;
+		-ms-transition: opacity .3s ease-in-out;
+		transition: opacity .3s ease-in-out;
+	}
+	.thumbs:hover {
 		opacity: 0.7;
-	}*/
+	}
 
 	#work-projects .thumbs img {
 		width: 90%;
