@@ -171,7 +171,7 @@
 						<a class="button button-primary first-b" href="about">About me</a>
 					</div>
 					<div class="six columns">
-						<a class="button button-primary second-b not-active" href="">View work</a>
+						<a class="button button-primary second-b" href="/work/summary">View work</a>
 					</div>
 				</div>
 				<div id="end-note" class="row regular">
