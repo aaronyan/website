@@ -145,10 +145,10 @@
 				</div>
 				<div class="row">
 					<div class="six columns">
-						<a class="button button-primary first-b" href="../about">About</a>
+						<a class="button button-primary first-b" href="../about">About Me</a>
 					</div>
 					<div class="six columns">
-						<a class="button button-primary second-b" href="summary">Work</a>
+						<a class="button button-primary second-b" href="summary">View Work</a>
 					</div>
 				</div>
 				<div id="end-note" class="row regular">
