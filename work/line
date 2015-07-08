@@ -120,22 +120,26 @@
 				<h2>Why Project Line?</h2>
 				<div id="line-stats" class="row regular">
 					<div class="six columns">
-						<h3>Customers</h3>
-						<p class="stat-main">35%</p>
-						<p class="stat-sub">time savings <sup><a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">2</a></sup></p>
+						<div class="border-highlight">
+							<h3>Customers</h3>
+							<p class="stat-main">35%</p>
+							<p class="stat-sub">time savings <sup><a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">2</a></sup></p>
+						</div>
 					</div>
 					<div class="six columns">
-						<h3>Businesses</h3>
-						<p class="stat-main">10%</p>
-						<p class="stat-sub">faster service <sup><a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">2</a></sup></p>
+						<div class="border-highlight">
+							<h3>Businesses</h3>
+							<p class="stat-main">10%</p>
+							<p class="stat-sub">faster service <sup><a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">2</a></sup></p>
+						</div>
 					</div>
 				</div>
-				<p class="after-h3">The Line algorithm saves customers and businesses time and produces happier customers and improves profit margins.</p>
+				<p class="after-h3">The Line algorithm produces happier customers, higher margins, and faster service.</p>
+				<div class="row">
+					<div class="twelve columns">
+						<sup id="fn2">2. Simulation parameters and results will be posted on <a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">my blog</a>.</sup>
+					</div>
 			</div>
-			<div class="row">
-				<div class="twelve columns">
-					<sup id="fn2">2. Simulation parameters and results will be posted on <a target="_blank" href="http://aarontheintern.com" title="Link to my blog for details on simulation parameters.">my blog</a>.</sup>
-				</div>
 			</div>
 		</section>
 		<section id="what-else">

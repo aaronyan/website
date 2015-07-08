@@ -1147,6 +1147,19 @@ Work Page Specific
 	margin-bottom: 0;
 }
 
+#why-line .border-highlight {
+	width: 150px;
+	margin-bottom: 1em;
+	margin: 2em auto 1em auto;
+	padding: 1.8em;
+	border: 1.5px solid #B2B9BE;
+	border-radius: 25px;
+}
+
+	#why-line .border-highlight h3 {
+		margin-top: 0;
+	}
+
 #why-line h2 {
 	margin-bottom: 0;
 	padding-bottom: 0;
