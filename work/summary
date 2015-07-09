@@ -93,7 +93,7 @@
 								<h3>Line</h3>
 								<a class="thumbs-link" href="line">
 									<div class="thumbs">
-										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
+										<img class="thumbs-pic" src="../images/objects/work-proj-line.png">
 										<p>Python, D3.js, MongoDB</p>
 									</div>
 								</a>
@@ -104,8 +104,8 @@
 							<li>
 								<h3>Cloud Screen</h3>
 								<a class="thumbs-link not-active-button" href="">
-									<div class="thumbs">
-										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
+									<div class="thumbs not-active-thumb">
+										<img class="thumbs-pic" src="../images/objects/work-proj-screen.png">
 										<p>Python, Docker, Google GCE</p>
 									</div>
 								</a>
@@ -117,8 +117,8 @@
 							<li>
 								<h3>Cloud Spend</h3>
 								<a class="thumbs-link not-active-button" href="">
-									<div class="thumbs">
-										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
+									<div class="thumbs not-active-thumb">
+										<img class="thumbs-pic" src="../images/objects/work-proj-spend.png">
 										<p>Excel, HTML, CSS, Bootstrap</p>
 									</div>
 								</a>
@@ -129,8 +129,8 @@
 							<li>
 								<h3>Cloud Compare</h3>
 								<a class="thumbs-link not-active-button" href="">
-									<div class="thumbs">
-										<img class="thumbs-pic" src="../images/objects/work-proj-empty.png">
+									<div class="thumbs not-active-thumb">
+										<img class="thumbs-pic" src="../images/objects/work-proj-compare.png">
 										<p>Excel, Visual Basic</p>
 									</div>
 								</a>
