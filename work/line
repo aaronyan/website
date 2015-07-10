@@ -81,7 +81,7 @@
 		<section id="what-is-line">
 			<div class="container">
 				<h2>What is it?</h2>
-				<p >Project Line is a queueing and point of sale algorithm designed to reduce on-premise wait time to zero minutes, service a customer as soon as they arrive, and maximize a business's throughput without adjusting staff or supply.</p>
+				<p><a target="_blank" href="https://github.com/aaronyan/line">Project Line</a> is a queueing and point of sale algorithm designed to reduce on-premise wait time to zero minutes, service a customer as soon as they arrive, and maximize a business's throughput without adjusting staff or supply.</p>
 				<p id="line-def-intro">Many of us look at waiting in lines as a supply problem. It is. Not enough seats at a restaurant? Too many guests at a theme park? A piece of this supply problem can be solved using information. By communicating between the business and the customer before the customer arrives, both groups benefit from more convenient lines and faster service.</p>
 				<div class="row regular">
 					<div class="six columns">
