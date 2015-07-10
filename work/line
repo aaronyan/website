@@ -99,8 +99,6 @@
 		</section>
 		<section id="how-line">
 			<div class="special container">
-				<h2>How does it work?</h2>
-				<p>The algorithm facilitates the communication between the customer and business to find the most convenient time for both parties. Once a time has been established, the algorithm will schedule the necessary resources to meet the order and time requirements.</p>
 				<h2>How is this different?</h2>
 				<p>Project Line lowers waiting times, optimizes orders with business resources, and improves customer convenience.</p>
 				<p>Let's compare three types of lines: <br>the Line algorithm, basic virtual lines, and physical lines.</p>
@@ -115,6 +113,12 @@
 					<li>Immediate on-premise service</li>
 					<li>Optimize supply to meet demand</li>
 				</ul>
+				<div class="row">
+						<div class="twelve columns">
+							<h2>How does it work?</h2>
+							<p>The algorithm facilitates the communication between the customer and business to find the most convenient time for both parties. Once a time has been established, the algorithm will schedule the necessary resources to meet the order and time requirements.</p>
+						</div>
+					</div>
 			</div>
 		</section>
 		<section id="why-line">
