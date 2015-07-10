@@ -86,11 +86,13 @@
 				<div class="row regular">
 					<div class="six columns">
 						<h3>For Customers</h3>
-						<p>Less waiting, faster service.</p>
+						<img src="../images/objects/happy-customer.png">
+						<p>Less waiting. <br>Faster service.</p>
 					</div>
 					<div class="six columns">
 						<h3>For Businesses</h3>
-						<p>Increased efficiency, happy customers.</p>
+						<img src="../images/objects/happy-business.png">
+						<p>Increased efficiency.<br>Happier customers.</p>
 					</div>
 				</div>
 			</div>
