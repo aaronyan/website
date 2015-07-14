@@ -1147,6 +1147,53 @@ Work Page Specific
 	margin-bottom: 0;
 }
 
+#how-different-line ul {
+	list-style-type: none;
+}
+
+	#how-different-line li {
+		text-align: left;
+		font-family: "Source Sans Pro";
+	  font-style: normal;
+	  font-weight: 400;
+	  font-size: 1.8rem;
+	}
+
+	#how-different-line table {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+		@media (min-width: 550px) {
+			#how-different-line table {
+				margin-left: 1em;
+			}
+		}
+
+		@media (min-width: 1000px) {
+			#how-different-line table {
+				margin-left: 2em;
+			}
+		}
+
+	#how-different-line td {
+		border-bottom-width: 0;
+		padding-bottom: 6px;
+		padding-top: 6px;
+	}
+
+	#how-different-line td:first-child {
+	  padding-right: 6px;
+	}
+
+	#how-different-line .td-uncheck {
+		color: #b2b9be;
+	}
+
+	#how-different-line .special {
+		margin-bottom: 1em;
+	}
+
 #why-line .border-highlight {
 	width: 150px;
 	margin-bottom: 1em;
