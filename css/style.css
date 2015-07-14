@@ -87,10 +87,14 @@ Front Page & General
 				.not-active-button {
 				   pointer-events: none;
 				   cursor: default;
+				   z-index: 500;
 				}
 
 				.not-active-thumb {
+					pointer-events: none;
+				  cursor: default;
 					opacity: .6;
+					z-index: 500;
 				}
 
 
