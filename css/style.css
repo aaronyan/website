@@ -1075,6 +1075,7 @@ Work Page Summary
 
 	.thumbs-link {
 		text-decoration: none;
+		display: block;
 	}
 
 	.thumbs{
@@ -1141,14 +1142,35 @@ Work Page Specific
 	margin-right: auto;
 }
 
-#line-intro {
-	font-weight: 300;
-	font-size: 5rem;
-	margin-top: 2rem;
-}
-
 #line-def-intro{
 	margin-bottom: 0;
+}
+
+#line-mock img {
+	  	width:100%;
+	  	margin-bottom: 2em;
+			padding-top: 1.2em;
+			-webkit-transition: margin-bottom .5s ease;
+			-moz-transition: margin-bottom .5s ease;
+			-o-transition: margin-bottom .5s ease;
+			-ms-transition: margin-bottom .5s ease;
+			transition: margin-bottom .5s ease;
+			display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index:190;
+	}
+
+	@media (min-width: 1000px) {
+	    #line-mock img {
+	    	width:85%;
+	    }
+	}
+
+#what-is-line img{
+	width: 150px;
+	display: block;
+	margin: 1em auto 1.5em auto;
 }
 
 #how-different-line ul {
@@ -1237,23 +1259,4 @@ Work Page Specific
 	margin-top: 1em;
 	margin-bottom: 2em;
 	z-index: 300;
-}#line-mock img {
-	  	width:100%;
-	  	margin-bottom: 3em;
-			padding-top: 1.2em;
-			-webkit-transition: margin-bottom .5s ease;
-			-moz-transition: margin-bottom .5s ease;
-			-o-transition: margin-bottom .5s ease;
-			-ms-transition: margin-bottom .5s ease;
-			transition: margin-bottom .5s ease;
-			display: block;
-      margin-left: auto;
-      margin-right: auto;
-      z-index:190;
-	}
-
-	@media (min-width: 1000px) {
-	    #line-mock img {
-	    	width:85%;
-	    }
-	}
+}
