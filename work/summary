@@ -8,14 +8,14 @@
 		<meta name="description" content="About Aaron Yan. A data scientist based in Austin, TX.">
 		<meta name="keywords" content="about aaron yan, about aaronyan, data scientist, operations research analyst, actionable insight">
 		<meta http-equiv="pragma" content="no-cache">
-	    <link rel="icon" href="../images/logos/favicon.ico">
-	    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../images/logos/apple-touch-icon-152x152.png">
-	    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/logos/apple-touch-icon-144x144.png">
-	    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../images/logos/apple-touch-icon-120x120.png">
-	    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/logos/apple-touch-icon-72x72.png">
-	    <link rel="apple-touch-icon-precomposed" href="../images/logos/apple-touch-icon.png">
+	  <link rel="icon" href="../images/logos/favicon.ico">
+	  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../images/logos/apple-touch-icon-152x152.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/logos/apple-touch-icon-144x144.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../images/logos/apple-touch-icon-120x120.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/logos/apple-touch-icon-72x72.png">
+	  <link rel="apple-touch-icon-precomposed" href="../images/logos/apple-touch-icon.png">
 		<link rel="stylesheet" href="../css/normalize.css">
-    	<link rel="stylesheet" href="../css/skeleton.css">
+  	<link rel="stylesheet" href="../css/skeleton.css">
 		<link rel="stylesheet" href="../css/style.css" >
 		<link rel="stylesheet" href="../css/font-awesome-4.3.0/css/font-awesome.min.css">
 		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
