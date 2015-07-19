@@ -147,14 +147,18 @@
 					<h2>What I Solve.</h2>
 				</div>
 				<div class="row">
-					<img src="images/objects/whatisolve-statistic.png">
+					<a href="images/objects/whatisolve-statistic.png" data-lightbox="whatisolve-imgs">
+						<img src="images/objects/whatisolve-statistic.png">
+					</a>
 				</div>
 				<div class="row regular">
 					<h3 id="i-solve-1">Learning Problems.</h3>
 					<p>I use statistics and machine learning to demystify trends and models from the data. [Python, R]</p>
 				</div>
 				<div class="row">
-					<img src="images/objects/whatisolve-optimization.png">
+					<a href="images/objects/whatisolve-optimization.png"data-lightbox="whatisolve-imgs">
+						<img src="images/objects/whatisolve-optimization.png">
+					</a>
 				</div>
 				<div id="whatisolve-last" class="row regular">
 					<h3 id="i-solve-2">Optimization Problems.</h3>
