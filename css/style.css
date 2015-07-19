@@ -1146,6 +1146,14 @@ Work Page Specific
 	margin-bottom: 0;
 }
 
+#line-mock a {
+	transition: opacity 0.3s ease 0s;
+}
+
+	#line-mock a:hover {
+	  opacity: .8;
+	}
+
 #line-mock img {
 	  	width:100%;
 	  	margin-bottom: 2em;
