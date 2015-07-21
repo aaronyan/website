@@ -73,7 +73,8 @@
 				<div class="row">
 					<div class="twelve columns">
 						<div id="line-mock">
-							<img src="../images/objects/line-mock.png" alt="Mock of Project Line on iPhone and iPad." title="Mock of Project Line">
+							<a href="../images/objects/line-mock.png" data-lightbox="line-mock">
+							<img src="../images/objects/line-mock.png" alt="Project Line on iPhone and iPad." title="Project Line on iPhone and iPad."></a>
 						</div>
 					</div>
 				</div>
@@ -317,5 +318,6 @@
 				</div>
 			</div>
 		</footer>
+		<script src="../js/lightbox/lightbox-plus-jquery.min.js"></script>
 	</body>
 </html>
